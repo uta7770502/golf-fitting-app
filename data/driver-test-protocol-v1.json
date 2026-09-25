@@ -1,0 +1,22 @@
+{
+  "version":"1.0",
+  "purpose":"Standardize repeatable driver fitting tests and prevent one-shot recommendations.",
+  "minimumShotsPerBuild":5,
+  "preferredShotsPerBuild":7,
+  "compareOneVariableAtATime":true,
+  "stages":[
+    {"id":"baseline","label":"BASELINE","instruction":"現在のクラブで5〜7球。明らかな計測ミスだけ除外し、平均値と左右のばらつきを記録する。"},
+    {"id":"head","label":"HEAD TEST","instruction":"シャフトとロフトを可能な限り固定し、MAX/LST/SFT/HLなどヘッド特性だけを比較する。"},
+    {"id":"loft","label":"LOFT TEST","instruction":"選んだヘッドでロフトを1段階ずつ比較し、打ち出し・スピン・キャリー・着弾角を見る。"},
+    {"id":"shaftWeight","label":"SHAFT WEIGHT","instruction":"ヘッドとロフトを固定し、重量帯を比較。初速だけでなく打点と左右分散を確認する。"},
+    {"id":"shaftProfile","label":"SHAFT PROFILE","instruction":"重量帯を絞った後、Flex/調子/剛性プロファイルを比較する。Flexはヘッドスピードだけで決めない。"},
+    {"id":"final","label":"FINAL VALIDATION","instruction":"最終候補と現在クラブを再度交互に打ち、疲労や慣れによる順番効果を減らして確認する。"}
+  ],
+  "metrics":{"primary":["carry","dispersion","ballSpeed","launchAngle","spinRate"],"secondary":["attackAngle","impactLocation","peakHeight","descentAngle","totalDistance"]},
+  "decisionRules":[
+    "距離向上だけで左右分散が大きく悪化する候補は自動的に最良としない。",
+    "低打点やヒール打点が多い場合、スピン値だけで低スピンヘッドへ変更しない。",
+    "3球未満の比較はLOW confidenceとする。",
+    "未知項目は欠損値として扱い、推測値で補完しない。"
+  ]
+}
