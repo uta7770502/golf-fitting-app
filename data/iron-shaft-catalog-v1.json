@@ -1,0 +1,58 @@
+{
+  "version":"1.0",
+  "notes":"Iron/wedge shaft catalog foundation. Specs use product-family naming conventions and will be expanded/verified model by model.",
+  "manufacturers":{
+    "True Temper":{
+      "Dynamic Gold":["R300","S200","S300","S400","X100"],
+      "Dynamic Gold MID":["S200","S300","X100"],
+      "Dynamic Gold 105":["R300","S200","S300","X100"],
+      "Dynamic Gold 120":["S200","S300","X100"],
+      "Dynamic Gold 95":["R300","S200"],
+      "Project X":["5.0","5.5","6.0","6.5","7.0"],
+      "Project X LZ":["5.0","5.5","6.0","6.5"],
+      "Project X IO":["5.5","6.0","6.5"],
+      "Project X LS":["6.0","6.5","7.0"]
+    },
+    "NIPPON SHAFT":{
+      "N.S.PRO MODUS3 TOUR 105":["R","S","X"],
+      "N.S.PRO MODUS3 TOUR 115":["R","S","X"],
+      "N.S.PRO MODUS3 TOUR 120":["R","S","X","TX"],
+      "N.S.PRO MODUS3 TOUR 125":["S","X"],
+      "N.S.PRO MODUS3 SYSTEM3 TOUR 125":["S","X"],
+      "N.S.PRO 750GH neo":["R","S"],
+      "N.S.PRO 850GH neo":["R","S"],
+      "N.S.PRO 950GH neo":["R","S"],
+      "N.S.PRO 950GH":["R","S","X"],
+      "N.S.PRO 1050GH":["R","S","X"],
+      "N.S.PRO 1150GH TOUR":["R","S","X"],
+      "N.S.PRO ZELOS 6":["R","S"],
+      "N.S.PRO ZELOS 7":["R","S"],
+      "N.S.PRO ZELOS 8":["R","S"]
+    },
+    "KBS":{
+      "KBS TOUR":["R","R+","S","S+","X"],
+      "KBS TOUR 90":["R","S"],
+      "KBS TOUR LITE":["R","S","X"],
+      "KBS C-TAPER":["R","R+","S","S+","X"],
+      "KBS C-TAPER LITE":["R","S","X"],
+      "KBS $-TAPER":["R","R+","S","S+","X"],
+      "KBS MAX":["R","S"]
+    },
+    "Fujikura":{
+      "MCI 50":["R","S"],"MCI 60":["R","S"],"MCI 70":["R","S"],"MCI 80":["R","S"],"MCI 90":["R","S"],"MCI 100":["S","X"],"MCI 110":["S","X"],"MCI 120":["S","X"],
+      "MCI BLACK 60":["R","S"],"MCI BLACK 80":["R","S"],"MCI BLACK 100":["S","X"],
+      "TRAVIL 75":["R","S"],"TRAVIL 85":["R","S"],"TRAVIL 95":["S","X"],"TRAVIL 105":["S","X"],"TRAVIL 115":["S","X"]
+    },
+    "Mitsubishi Chemical":{
+      "OT iron 55":["R","S"],"OT iron 65":["R","S"],"OT iron 75":["R","S"],"OT iron 85":["R","S"],"OT iron 95":["S","X"],"OT iron 105":["S","X"],
+      "OT TOUR iron 80":["S"],"OT TOUR iron 90":["S","X"],"OT TOUR iron 100":["S","X"],"OT TOUR iron 110":["S","X"]
+    },
+    "Graphite Design":{
+      "RAUNE i60":["R","S"],"RAUNE i75":["R","S"],"RAUNE i90":["S","X"],"RAUNE i105":["S","X"],
+      "RAUNE WEDGE w85":["S"],"RAUNE WEDGE w100":["S"],"RAUNE WEDGE w115":["S"]
+    },
+    "UST Mamiya":{
+      "ATTAS IRON 40":["R"],"ATTAS IRON 50":["R","S"],"ATTAS IRON 60":["R","S"],"ATTAS IRON 70":["R","S"],"ATTAS IRON 80":["S"],"ATTAS IRON 10":["S","X"]
+    }
+  }
+}
