@@ -1,0 +1,28 @@
+{
+  "version":"1.0",
+  "basis":"PING WebFit / PING public fitting guidance inspired decision-support model; not a reproduction of proprietary PING algorithms.",
+  "principles":[
+    "Use available launch-monitor data; unknown fields remain optional.",
+    "Optimize launch and spin together rather than shaft flex alone.",
+    "Slower speed generally benefits from more loft and/or lighter, softer, higher-launch builds; faster speed may fit lower loft and firmer, lower-launch builds.",
+    "Head model recommendation must consider dispersion and miss direction, not only distance.",
+    "Recommend a controlled next test rather than claiming a definitive fit from incomplete data."
+  ],
+  "pingHeadProfiles":{
+    "MAX":{"intent":"forgiveness / neutral baseline","useWhen":["starting point","dispersion priority","mixed misses"]},
+    "LST":{"intent":"lower spin / penetrating flight / control","useWhen":["higher club speed","excess spin after strike quality check","left-side control priority"]},
+    "SFT":{"intent":"draw bias / slice correction","useWhen":["persistent right miss","fade/slice correction priority"]},
+    "HL":{"intent":"lighter total build / higher launch / speed assistance","useWhen":["slower swing speed","difficulty launching","need lighter overall build"]}
+  },
+  "inputs":{
+    "core":["ballSpeed","clubSpeed","launchAngle","spinRate","carry","attackAngle","impactLocation"],
+    "recommendedNext":["sideCarry","totalDistance","spinAxisOrCurve","peakHeight","descentAngle","shotCount","missDirection","tempo","currentLoft","currentShaft","currentLength"]
+  },
+  "confidence":{"low":"0-3 useful fields","medium":"4-6 useful fields","high":"7+ fields plus multi-shot pattern"},
+  "guardrails":[
+    "Do not prescribe a shaft flex solely from club speed.",
+    "Do not treat one shot as a fitting session.",
+    "Check strike location before interpreting spin extremes.",
+    "Prefer one-variable-at-a-time comparison tests."
+  ]
+}
