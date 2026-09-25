@@ -1,117 +1,54 @@
 {
-  "version": "1.0",
-  "purpose": "Historical driver master for linked manufacturer/model/year/loft selectors",
-  "notes": "Years/lofts are catalog metadata and should be verified against official regional specs before production use. Unknown variants remain explicit rather than inferred.",
-  "manufacturers": {
-    "PING": [
-      {"model":"G440 K","year":2026,"lofts":["9°","10.5°","12°"]},
-      {"model":"G440 MAX","year":2025,"lofts":["9°","10.5°","12°"]},
-      {"model":"G440 LST","year":2025,"lofts":["9°","10.5°"]},
-      {"model":"G440 SFT","year":2025,"lofts":["9°","10.5°"]},
-      {"model":"G430 MAX 10K","year":2024,"lofts":["9°","10.5°","12°"]},
-      {"model":"G430 MAX","year":2022,"lofts":["9°","10.5°","12°"]},
-      {"model":"G430 LST","year":2022,"lofts":["9°","10.5°"]},
-      {"model":"G430 SFT","year":2022,"lofts":["10.5°"]},
-      {"model":"G425 MAX","year":2020,"lofts":["9°","10.5°","12°"]},
-      {"model":"G425 LST","year":2020,"lofts":["9°","10.5°"]},
-      {"model":"G425 SFT","year":2020,"lofts":["10.5°"]},
-      {"model":"G410 PLUS","year":2019,"lofts":["9°","10.5°","12°"]},
-      {"model":"G410 LST","year":2019,"lofts":["9°","10.5°"]},
-      {"model":"G410 SFT","year":2019,"lofts":["10.5°"]},
-      {"model":"G400 MAX","year":2018,"lofts":["9°","10.5°"]},
-      {"model":"G400","year":2017,"lofts":["9°","10.5°"]},
-      {"model":"G400 LST","year":2017,"lofts":["8.5°","10°"]},
-      {"model":"G400 SFT","year":2017,"lofts":["10°","12°"]},
-      {"model":"G","year":2016,"lofts":["9°","10.5°"]},
-      {"model":"G LS TEC","year":2016,"lofts":["9°","10.5°"]},
-      {"model":"G SF TEC","year":2016,"lofts":["10°","12°"]},
-      {"model":"G30","year":2014,"lofts":["9°","10.5°"]},
-      {"model":"G30 LS TEC","year":2015,"lofts":["9°","10.5°"]},
-      {"model":"G30 SF TEC","year":2014,"lofts":["10°","12°"]},
-      {"model":"i25","year":2014,"lofts":["8.5°","9.5°","10.5°"]},
-      {"model":"G25","year":2013,"lofts":["8.5°","9.5°","10.5°","12°"]},
-      {"model":"Anser","year":2012,"lofts":["8.5°","9.5°","10.5°","12°"]},
-      {"model":"i20","year":2012,"lofts":["8.5°","9.5°","10.5°"]},
-      {"model":"G20","year":2011,"lofts":["8.5°","9.5°","10.5°","12°"]}
+  "version":"1.1",
+  "purpose":"Historical driver master for linked manufacturer/model/year/loft selectors",
+  "notes":"Catalog is progressively verified against manufacturer archives; unknown or region-dependent specs should not be inferred.",
+  "manufacturers":{
+    "PING":[
+      {"model":"G440 K","year":2026,"lofts":["9°","10.5°","12°"]},{"model":"G440 MAX","year":2025,"lofts":["9°","10.5°","12°"]},{"model":"G440 LST","year":2025,"lofts":["9°","10.5°"]},{"model":"G440 SFT","year":2025,"lofts":["9°","10.5°"]},{"model":"G430 MAX 10K","year":2024,"lofts":["9°","10.5°","12°"]},{"model":"G430 HL MAX","year":2023,"lofts":["10.5°","12°"]},{"model":"G430 HL SFT","year":2023,"lofts":["10.5°"]},{"model":"G430 MAX","year":2022,"lofts":["9°","10.5°","12°"]},{"model":"G430 LST","year":2022,"lofts":["9°","10.5°"]},{"model":"G430 SFT","year":2022,"lofts":["10.5°"]},{"model":"G425 MAX","year":2020,"lofts":["9°","10.5°","12°"]},{"model":"G425 LST","year":2020,"lofts":["9°","10.5°"]},{"model":"G425 SFT","year":2020,"lofts":["10.5°"]},{"model":"G410 PLUS","year":2019,"lofts":["9°","10.5°","12°"]},{"model":"G410 LST","year":2019,"lofts":["9°","10.5°"]},{"model":"G410 SFT","year":2019,"lofts":["10.5°"]},{"model":"G400 MAX","year":2018,"lofts":["9°","10.5°"]},{"model":"G400","year":2017,"lofts":["9°","10.5°"]},{"model":"G400 LST","year":2017,"lofts":["8.5°","10°"]},{"model":"G400 SFT","year":2017,"lofts":["10°","12°"]},{"model":"G","year":2016,"lofts":["9°","10.5°"]},{"model":"G LS TEC","year":2016,"lofts":["9°","10.5°"]},{"model":"G SF TEC","year":2016,"lofts":["10°","12°"]},{"model":"G30 LS TEC","year":2015,"lofts":["9°","10.5°"]},{"model":"G30","year":2014,"lofts":["9°","10.5°"]},{"model":"G30 SF TEC","year":2014,"lofts":["10°","12°"]},{"model":"i25","year":2014,"lofts":["8.5°","9.5°","10.5°"]},{"model":"G25","year":2013,"lofts":["8.5°","9.5°","10.5°","12°"]},{"model":"Anser","year":2012,"lofts":["8.5°","9.5°","10.5°","12°"]},{"model":"i20","year":2012,"lofts":["8.5°","9.5°","10.5°"]},{"model":"G20","year":2011,"lofts":["8.5°","9.5°","10.5°","12°"]}
     ],
-    "Titleist": [
-      {"model":"GT2","year":2024,"lofts":["8°","9°","10°","11°"]},
-      {"model":"GT3","year":2024,"lofts":["8°","9°","10°","11°"]},
-      {"model":"GT4","year":2024,"lofts":["8°","9°","10°"]},
-      {"model":"TSR1","year":2023,"lofts":["9°","10°","12°"]},
-      {"model":"TSR2","year":2022,"lofts":["8°","9°","10°","11°"]},
-      {"model":"TSR3","year":2022,"lofts":["8°","9°","10°","11°"]},
-      {"model":"TSR4","year":2022,"lofts":["8°","9°","10°"]},
-      {"model":"TSi1","year":2021,"lofts":["9°","10°","12°"]},
-      {"model":"TSi2","year":2020,"lofts":["9°","10°","11°"]},
-      {"model":"TSi3","year":2020,"lofts":["8°","9°","10°"]},
-      {"model":"TSi4","year":2021,"lofts":["8°","9°","10°"]},
-      {"model":"TS1","year":2019,"lofts":["9.5°","10.5°","12.5°"]},
-      {"model":"TS2","year":2018,"lofts":["8.5°","9.5°","10.5°","11.5°"]},
-      {"model":"TS3","year":2018,"lofts":["8.5°","9.5°","10.5°"]},
-      {"model":"TS4","year":2019,"lofts":["8.5°","9.5°","10.5°"]},
-      {"model":"917 D2","year":2016,"lofts":["8.5°","9.5°","10.5°","12°"]},
-      {"model":"917 D3","year":2016,"lofts":["8.5°","9.5°","10.5°"]},
-      {"model":"915 D2","year":2014,"lofts":["7.5°","8.5°","9.5°","10.5°","12°"]},
-      {"model":"915 D3","year":2014,"lofts":["7.5°","8.5°","9.5°","10.5°"]},
-      {"model":"913 D2","year":2012,"lofts":["7.5°","8.5°","9.5°","10.5°","12°"]},
-      {"model":"913 D3","year":2012,"lofts":["7.5°","8.5°","9.5°","10.5°"]},
-      {"model":"910 D2","year":2010,"lofts":["8.5°","9.5°","10.5°"]},
-      {"model":"910 D3","year":2010,"lofts":["8.5°","9.5°","10.5°"]}
+    "Titleist":[
+      {"model":"GT2","year":2024,"lofts":["8°","9°","10°","11°"]},{"model":"GT3","year":2024,"lofts":["8°","9°","10°","11°"]},{"model":"GT4","year":2024,"lofts":["8°","9°","10°"]},{"model":"TSR1","year":2023,"lofts":["9°","10°","12°"]},{"model":"TSR2","year":2022,"lofts":["8°","9°","10°","11°"]},{"model":"TSR3","year":2022,"lofts":["8°","9°","10°","11°"]},{"model":"TSR4","year":2022,"lofts":["8°","9°","10°"]},{"model":"TSi1","year":2021,"lofts":["9°","10°","12°"]},{"model":"TSi4","year":2021,"lofts":["8°","9°","10°"]},{"model":"TSi2","year":2020,"lofts":["9°","10°","11°"]},{"model":"TSi3","year":2020,"lofts":["8°","9°","10°"]},{"model":"TS1","year":2019,"lofts":["9.5°","10.5°","12.5°"]},{"model":"TS4","year":2019,"lofts":["8.5°","9.5°","10.5°"]},{"model":"TS2","year":2018,"lofts":["8.5°","9.5°","10.5°","11.5°"]},{"model":"TS3","year":2018,"lofts":["8.5°","9.5°","10.5°"]},{"model":"917 D2","year":2016,"lofts":["8.5°","9.5°","10.5°","12°"]},{"model":"917 D3","year":2016,"lofts":["8.5°","9.5°","10.5°"]},{"model":"915 D2","year":2014,"lofts":["7.5°","8.5°","9.5°","10.5°","12°"]},{"model":"915 D3","year":2014,"lofts":["7.5°","8.5°","9.5°","10.5°"]},{"model":"913 D2","year":2012,"lofts":["7.5°","8.5°","9.5°","10.5°","12°"]},{"model":"913 D3","year":2012,"lofts":["7.5°","8.5°","9.5°","10.5°"]},{"model":"910 D2","year":2010,"lofts":["8.5°","9.5°","10.5°"]},{"model":"910 D3","year":2010,"lofts":["8.5°","9.5°","10.5°"]}
     ],
-    "TaylorMade": [
-      {"model":"Qi35","year":2025,"lofts":["9°","10.5°","12°"]},
-      {"model":"Qi35 LS","year":2025,"lofts":["8°","9°","10.5°"]},
-      {"model":"Qi35 MAX","year":2025,"lofts":["9°","10.5°","12°"]},
-      {"model":"Qi10","year":2024,"lofts":["9°","10.5°","12°"]},
-      {"model":"Qi10 LS","year":2024,"lofts":["8°","9°","10.5°"]},
-      {"model":"Qi10 MAX","year":2024,"lofts":["9°","10.5°","12°"]},
-      {"model":"STEALTH 2","year":2023,"lofts":["9°","10.5°","12°"]},
-      {"model":"STEALTH 2 PLUS","year":2023,"lofts":["8°","9°","10.5°"]},
-      {"model":"STEALTH 2 HD","year":2023,"lofts":["9°","10.5°","12°"]},
-      {"model":"STEALTH","year":2022,"lofts":["9°","10.5°","12°"]},
-      {"model":"STEALTH PLUS","year":2022,"lofts":["8°","9°","10.5°"]},
-      {"model":"STEALTH HD","year":2022,"lofts":["9°","10.5°","12°"]},
-      {"model":"SIM2","year":2021,"lofts":["9°","10.5°"]},
-      {"model":"SIM2 MAX","year":2021,"lofts":["9°","10.5°","12°"]},
-      {"model":"SIM2 MAX-D","year":2021,"lofts":["9°","10.5°","12°"]},
-      {"model":"SIM","year":2020,"lofts":["8°","9°","10.5°"]},
-      {"model":"SIM MAX","year":2020,"lofts":["9°","10.5°","12°"]},
-      {"model":"SIM MAX-D","year":2020,"lofts":["9°","10.5°","12°"]},
-      {"model":"M6","year":2019,"lofts":["9°","10.5°","12°"]},
-      {"model":"M5","year":2019,"lofts":["9°","10.5°"]},
-      {"model":"M4","year":2018,"lofts":["8.5°","9.5°","10.5°","12°"]},
-      {"model":"M3 460","year":2018,"lofts":["8.5°","9.5°","10.5°","12°"]},
-      {"model":"M2 2017","year":2017,"lofts":["9.5°","10.5°","12°"]},
-      {"model":"M1 2017","year":2017,"lofts":["8.5°","9.5°","10.5°","12°"]},
-      {"model":"M2","year":2016,"lofts":["9.5°","10.5°","12°"]},
-      {"model":"M1","year":2015,"lofts":["8.5°","9.5°","10.5°","12°"]}
+    "TaylorMade":[
+      {"model":"Qi35","year":2025,"lofts":["9°","10.5°","12°"]},{"model":"Qi35 LS","year":2025,"lofts":["8°","9°","10.5°"]},{"model":"Qi35 MAX","year":2025,"lofts":["9°","10.5°","12°"]},{"model":"Qi10","year":2024,"lofts":["9°","10.5°","12°"]},{"model":"Qi10 LS","year":2024,"lofts":["8°","9°","10.5°"]},{"model":"Qi10 MAX","year":2024,"lofts":["9°","10.5°","12°"]},{"model":"STEALTH 2","year":2023,"lofts":["9°","10.5°","12°"]},{"model":"STEALTH 2 PLUS","year":2023,"lofts":["8°","9°","10.5°"]},{"model":"STEALTH 2 HD","year":2023,"lofts":["9°","10.5°","12°"]},{"model":"STEALTH","year":2022,"lofts":["9°","10.5°","12°"]},{"model":"STEALTH PLUS","year":2022,"lofts":["8°","9°","10.5°"]},{"model":"STEALTH HD","year":2022,"lofts":["9°","10.5°","12°"]},{"model":"STEALTH GLOIRE","year":2022,"lofts":["9.5°","10.5°","11.5°"]},{"model":"SIM2","year":2021,"lofts":["9°","10.5°"]},{"model":"SIM2 MAX","year":2021,"lofts":["9°","10.5°","12°"]},{"model":"SIM2 MAX-D","year":2021,"lofts":["9°","10.5°","12°"]},{"model":"SIM","year":2020,"lofts":["8°","9°","10.5°"]},{"model":"SIM MAX","year":2020,"lofts":["9°","10.5°","12°"]},{"model":"SIM MAX-D","year":2020,"lofts":["9°","10.5°","12°"]},{"model":"M6","year":2019,"lofts":["9°","10.5°","12°"]},{"model":"M5","year":2019,"lofts":["9°","10.5°"]},{"model":"M4","year":2018,"lofts":["8.5°","9.5°","10.5°","12°"]},{"model":"M3 460","year":2018,"lofts":["8.5°","9.5°","10.5°","12°"]},{"model":"M2 2017","year":2017,"lofts":["9.5°","10.5°","12°"]},{"model":"M1 2017","year":2017,"lofts":["8.5°","9.5°","10.5°","12°"]},{"model":"M2","year":2016,"lofts":["9.5°","10.5°","12°"]},{"model":"M1","year":2015,"lofts":["8.5°","9.5°","10.5°","12°"]}
     ],
-    "Callaway": [
-      {"model":"ELYTE","year":2025,"lofts":["9°","10.5°","12°"]},
-      {"model":"ELYTE Triple Diamond","year":2025,"lofts":["8°","9°","10.5°"]},
-      {"model":"PARADYM Ai SMOKE MAX","year":2024,"lofts":["9°","10.5°","12°"]},
-      {"model":"PARADYM Ai SMOKE Triple Diamond","year":2024,"lofts":["8°","9°","10.5°"]},
-      {"model":"PARADYM","year":2023,"lofts":["9°","10.5°","12°"]},
-      {"model":"PARADYM X","year":2023,"lofts":["9°","10.5°","12°"]},
-      {"model":"PARADYM Triple Diamond","year":2023,"lofts":["8°","9°","10.5°"]},
-      {"model":"ROGUE ST MAX","year":2022,"lofts":["9°","10.5°","12°"]},
-      {"model":"ROGUE ST MAX LS","year":2022,"lofts":["9°","10.5°"]},
-      {"model":"ROGUE ST Triple Diamond LS","year":2022,"lofts":["9°","10.5°"]},
-      {"model":"EPIC SPEED","year":2021,"lofts":["9°","10.5°","12°"]},
-      {"model":"EPIC MAX","year":2021,"lofts":["9°","10.5°","12°"]},
-      {"model":"EPIC MAX LS","year":2021,"lofts":["9°","10.5°"]},
-      {"model":"MAVRIK","year":2020,"lofts":["9°","10.5°","12°"]},
-      {"model":"MAVRIK MAX","year":2020,"lofts":["9°","10.5°","12°"]},
-      {"model":"MAVRIK SUB ZERO","year":2020,"lofts":["9°","10.5°"]},
-      {"model":"EPIC FLASH","year":2019,"lofts":["9°","10.5°","12°"]},
-      {"model":"EPIC FLASH SUB ZERO","year":2019,"lofts":["9°","10.5°"]},
-      {"model":"ROGUE","year":2018,"lofts":["9°","10.5°","13.5°"]},
-      {"model":"ROGUE SUB ZERO","year":2018,"lofts":["9°","10.5°"]},
-      {"model":"GBB EPIC","year":2017,"lofts":["9°","10.5°","13.5°"]},
-      {"model":"GBB EPIC SUB ZERO","year":2017,"lofts":["9°","10.5°"]},
-      {"model":"XR 16","year":2016,"lofts":["9°","10.5°","13.5°"]},
-      {"model":"Great Big Bertha","year":2015,"lofts":["9°","10.5°","13.5°"]}
-    ]
+    "Callaway":[
+      {"model":"ELYTE","year":2025,"lofts":["9°","10.5°","12°"]},{"model":"ELYTE Triple Diamond","year":2025,"lofts":["8°","9°","10.5°"]},{"model":"PARADYM Ai SMOKE MAX","year":2024,"lofts":["9°","10.5°","12°"]},{"model":"PARADYM Ai SMOKE Triple Diamond","year":2024,"lofts":["8°","9°","10.5°"]},{"model":"PARADYM","year":2023,"lofts":["9°","10.5°","12°"]},{"model":"PARADYM X","year":2023,"lofts":["9°","10.5°","12°"]},{"model":"PARADYM Triple Diamond","year":2023,"lofts":["8°","9°","10.5°"]},{"model":"ROGUE ST MAX","year":2022,"lofts":["9°","10.5°","12°"]},{"model":"ROGUE ST MAX LS","year":2022,"lofts":["9°","10.5°"]},{"model":"ROGUE ST Triple Diamond LS","year":2022,"lofts":["9°","10.5°"]},{"model":"EPIC SPEED","year":2021,"lofts":["9°","10.5°","12°"]},{"model":"EPIC MAX","year":2021,"lofts":["9°","10.5°","12°"]},{"model":"EPIC MAX LS","year":2021,"lofts":["9°","10.5°"]},{"model":"MAVRIK","year":2020,"lofts":["9°","10.5°","12°"]},{"model":"MAVRIK MAX","year":2020,"lofts":["9°","10.5°","12°"]},{"model":"MAVRIK SUB ZERO","year":2020,"lofts":["9°","10.5°"]},{"model":"EPIC FLASH","year":2019,"lofts":["9°","10.5°","12°"]},{"model":"EPIC FLASH SUB ZERO","year":2019,"lofts":["9°","10.5°"]},{"model":"ROGUE","year":2018,"lofts":["9°","10.5°","13.5°"]},{"model":"ROGUE SUB ZERO","year":2018,"lofts":["9°","10.5°"]},{"model":"GBB EPIC","year":2017,"lofts":["9°","10.5°","13.5°"]},{"model":"GBB EPIC SUB ZERO","year":2017,"lofts":["9°","10.5°"]},{"model":"XR 16","year":2016,"lofts":["9°","10.5°","13.5°"]},{"model":"Great Big Bertha","year":2015,"lofts":["9°","10.5°","13.5°"]}
+    ],
+    "Cobra":[
+      {"model":"DS-ADAPT X","year":2025,"lofts":["9°","10.5°"]},{"model":"DS-ADAPT LS","year":2025,"lofts":["9°","10.5°"]},{"model":"DS-ADAPT MAX-K","year":2025,"lofts":["9°","10.5°","12°"]},{"model":"DARKSPEED X","year":2024,"lofts":["9°","10.5°","12°"]},{"model":"DARKSPEED LS","year":2024,"lofts":["8°","9°","10.5°"]},{"model":"DARKSPEED MAX","year":2024,"lofts":["9°","10.5°","12°"]},{"model":"AEROJET","year":2023,"lofts":["9°","10.5°","12°"]},{"model":"AEROJET LS","year":2023,"lofts":["9°","10.5°"]},{"model":"AEROJET MAX","year":2023,"lofts":["9°","10.5°","12°"]},{"model":"LTDx","year":2022,"lofts":["9°","10.5°","12°"]},{"model":"LTDx LS","year":2022,"lofts":["9°","10.5°"]},{"model":"LTDx MAX","year":2022,"lofts":["9°","10.5°","12°"]},{"model":"RADSpeed","year":2021,"lofts":["9°","10.5°"]},{"model":"KING SPEEDZONE","year":2020,"lofts":["9°","10.5°"]},{"model":"KING F9 SPEEDBACK","year":2019,"lofts":["9°","10.5°"]}
+    ],
+    "Mizuno":[
+      {"model":"ST-MAX 230","year":2024,"lofts":["9.5°","10.5°","12°"]},{"model":"ST-G 440","year":2024,"lofts":["9.5°"]},{"model":"ST-Z 230","year":2023,"lofts":["9.5°","10.5°"]},{"model":"ST-X 230","year":2023,"lofts":["9.5°","10.5°","12°"]},{"model":"ST-Z 220","year":2022,"lofts":["9.5°","10.5°"]},{"model":"ST-X 220","year":2022,"lofts":["10.5°"]},{"model":"ST-Z","year":2021,"lofts":["9.5°","10.5°"]},{"model":"ST-X","year":2021,"lofts":["10.5°","12°"]},{"model":"ST200","year":2020,"lofts":["9.5°","10.5°"]},{"model":"ST190","year":2019,"lofts":["9.5°","10.5°"]}
+    ],
+    "SRIXON":[
+      {"model":"ZXi","year":2024,"lofts":["9°","10.5°"]},{"model":"ZXi LS","year":2024,"lofts":["9°","10.5°"]},{"model":"ZXi MAX","year":2024,"lofts":["9°","10.5°"]},{"model":"ZX5 Mk II","year":2022,"lofts":["9.5°","10.5°"]},{"model":"ZX7 Mk II","year":2022,"lofts":["9.5°","10.5°"]},{"model":"ZX5","year":2020,"lofts":["9.5°","10.5°"]},{"model":"ZX7","year":2020,"lofts":["9.5°","10.5°"]},{"model":"Z 785","year":2018,"lofts":["9.5°","10.5°"]},{"model":"Z 585","year":2018,"lofts":["9.5°","10.5°"]},{"model":"Z 765","year":2016,"lofts":["9.5°","10.5°"]},{"model":"Z 565","year":2016,"lofts":["9.5°","10.5°"]}
+    ],
+    "BRIDGESTONE":[
+      {"model":"BX1ST","year":2025,"lofts":["9°","10.5°"]},{"model":"B1ST","year":2023,"lofts":["9.5°","10.5°"]},{"model":"B2HT","year":2023,"lofts":["9.5°","10.5°"]},{"model":"B1","year":2021,"lofts":["9.5°","10.5°"]},{"model":"B2","year":2021,"lofts":["9.5°","10.5°"]},{"model":"TOUR B X","year":2020,"lofts":["9.5°","10.5°"]},{"model":"TOUR B XD-3","year":2018,"lofts":["9.5°","10.5°"]},{"model":"JGR","year":2015,"lofts":["9.5°","10.5°","11.5°"]}
+    ],
+    "PRGR":[
+      {"model":"RS X","year":2024,"lofts":["9.5°","10.5°"]},{"model":"RS F","year":2022,"lofts":["9.5°","10.5°"]},{"model":"RS","year":2022,"lofts":["9.5°","10.5°"]},{"model":"RS E","year":2019,"lofts":["9.5°","10.5°"]},{"model":"RS-F","year":2018,"lofts":["9.5°","10.5°"]},{"model":"RS","year":2018,"lofts":["9.5°","10.5°"]},{"model":"egg DRIVER","year":2017,"lofts":["10.5°"]}
+    ],
+    "ONOFF":[
+      {"model":"AKA DRIVER","year":2024,"lofts":["10.5°","11.5°"]},{"model":"KURO DRIVER","year":2023,"lofts":["9.5°","10.5°"]},{"model":"AKA DRIVER","year":2022,"lofts":["10.5°","11.5°"]},{"model":"KURO DRIVER","year":2021,"lofts":["9.5°","10.5°"]},{"model":"AKA DRIVER","year":2020,"lofts":["10°","11°"]}
+    ],
+    "XXIO":[
+      {"model":"XXIO 14","year":2025,"lofts":["9.5°","10.5°","11.5°"]},{"model":"XXIO 13","year":2023,"lofts":["9.5°","10.5°","11.5°"]},{"model":"XXIO X -eks- 2024","year":2023,"lofts":["9.5°","10.5°"]},{"model":"XXIO 12","year":2021,"lofts":["9.5°","10.5°","11.5°"]},{"model":"XXIO 11","year":2019,"lofts":["9.5°","10.5°","11.5°"]},{"model":"XXIO 10","year":2017,"lofts":["9.5°","10.5°","11.5°"]}
+    ],
+    "YAMAHA":[
+      {"model":"RMX VD/M","year":2023,"lofts":["9.5°","10.5°"]},{"model":"RMX VD/X","year":2023,"lofts":["9.5°","10.5°"]},{"model":"RMX VD","year":2021,"lofts":["9.5°","10.5°"]},{"model":"RMX 120","year":2019,"lofts":["9.5°","10.5°"]},{"model":"RMX 220","year":2019,"lofts":["9.5°","10.5°"]},{"model":"RMX 118","year":2017,"lofts":["9.5°","10.5°"]},{"model":"RMX 218","year":2017,"lofts":["9.5°","10.5°"]}
+    ],
+    "HONMA":[
+      {"model":"TW767","year":2024,"lofts":["9°","10.5°"]},{"model":"BERES 09","year":2024,"lofts":["9.5°","10.5°","11.5°"]},{"model":"TW757 Type-D","year":2022,"lofts":["9°","10.5°"]},{"model":"TW757 Type-S","year":2022,"lofts":["9°","10.5°"]},{"model":"TR20 460","year":2020,"lofts":["9.5°","10.5°"]},{"model":"TW747 460","year":2018,"lofts":["9.5°","10.5°"]},{"model":"TW737 455","year":2016,"lofts":["9.5°","10.5°"]}
+    ],
+    "EPON":[{"model":"AF-107","year":2024,"lofts":["9.5°","10.5°"]},{"model":"AF-106","year":2021,"lofts":["9.5°","10.5°"]},{"model":"AF-105","year":2015,"lofts":["9.5°","10.5°"]}],
+    "RomaRo":[{"model":"Ray V V2 435","year":2024,"lofts":["9°","10°"]},{"model":"Ray V V2 460","year":2024,"lofts":["9°","10°"]}],
+    "BALDO":[{"model":"COMPETIZIONE 568 DRIVER","year":2024,"lofts":["9°","10°"]},{"model":"CORSA PERFORMANCE DRIVER","year":2022,"lofts":["9°","10°"]}],
+    "JBEAM":[{"model":"JLIDEN YS-01","year":2024,"lofts":["9.5°","10.5°"]},{"model":"KZ-5","year":2020,"lofts":["9.5°","10.5°"]}],
+    "RODDIO":[{"model":"M-TUNING DRIVER","year":2023,"lofts":["MID","LOW"]},{"model":"S-DESIGN OVERSIZED","year":2021,"lofts":["MID","LOW"]}],
+    "GTD":[{"model":"Black Ice 460","year":2023,"lofts":["10°"]},{"model":"Black Ice The MAX","year":2022,"lofts":["10.5°"]}],
+    "muziik":[{"model":"BLACK XSPIRE","year":2024,"lofts":["9.5°","10.5°"]},{"model":"On The Screw DD2 HEAVEN","year":2022,"lofts":["9.5°","10.5°"]}],
+    "その他/手動登録":[{"model":"手動登録","year":"不明","lofts":["不明"]}]
   }
 }
