@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "notes": "Expanded iron/wedge shaft beta catalog including steel, graphite, lightweight and fitting-oriented lines.",
   "manufacturers": {
     "True Temper": {
@@ -356,6 +356,36 @@
       "OT TOUR iron 110": [
         "S",
         "X"
+      ],
+      "MMT 55": [
+        "A",
+        "R",
+        "S"
+      ],
+      "MMT 65": [
+        "R",
+        "S"
+      ],
+      "MMT 75": [
+        "R",
+        "S"
+      ],
+      "MMT 85": [
+        "S",
+        "X"
+      ],
+      "MMT 95": [
+        "S",
+        "X"
+      ],
+      "MMT 105": [
+        "S",
+        "X"
+      ],
+      "MMT 125": [
+        "S",
+        "X",
+        "TX"
       ]
     },
     "Graphite Design": {
@@ -383,6 +413,34 @@
       ],
       "RAUNE WEDGE w115": [
         "S"
+      ],
+      "TOUR AD AD-55": [
+        "R",
+        "S"
+      ],
+      "TOUR AD AD-65": [
+        "R",
+        "S"
+      ],
+      "TOUR AD AD-75": [
+        "R",
+        "S"
+      ],
+      "TOUR AD AD-85": [
+        "R",
+        "S"
+      ],
+      "TOUR AD AD-95": [
+        "S",
+        "X"
+      ],
+      "TOUR AD AD-105": [
+        "S",
+        "X"
+      ],
+      "TOUR AD AD-115": [
+        "S",
+        "X"
       ]
     },
     "UST Mamiya": {
@@ -407,6 +465,44 @@
       "ATTAS IRON 10": [
         "S",
         "X"
+      ],
+      "RECOIL 460": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "RECOIL 660": [
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "RECOIL 760": [
+        "F3",
+        "F4"
+      ],
+      "RECOIL 780 ES": [
+        "F3",
+        "F4"
+      ],
+      "RECOIL 95": [
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "RECOIL 110": [
+        "F4",
+        "F5"
+      ],
+      "RECOIL Prototype 95": [
+        "F4",
+        "F5"
+      ],
+      "RECOIL Prototype 110": [
+        "F4",
+        "F5"
+      ],
+      "RECOIL ZT9": [
+        "スペック要確認"
       ]
     },
     "Aerotech": {
@@ -490,6 +586,85 @@
       "iSeries 100i": [
         "M4",
         "M5"
+      ]
+    },
+    "SHIMADA GOLF": {
+      "K's-Tour": [
+        "R",
+        "S",
+        "X"
+      ],
+      "K's-Tour Lite": [
+        "R",
+        "S"
+      ],
+      "K's-3001": [
+        "R",
+        "S"
+      ],
+      "K's-7001": [
+        "R",
+        "S"
+      ],
+      "K's NINE9": [
+        "R",
+        "S"
+      ]
+    },
+    "FST": {
+      "FST 90": [
+        "R",
+        "S"
+      ],
+      "FST 115": [
+        "R",
+        "S"
+      ],
+      "FST 125": [
+        "S",
+        "X"
+      ]
+    },
+    "Project X": {
+      "Project X Flighted": [
+        "5.0",
+        "5.5",
+        "6.0",
+        "6.5"
+      ],
+      "Project X PXi": [
+        "5.0",
+        "5.5",
+        "6.0",
+        "6.5"
+      ],
+      "Rifle": [
+        "4.5",
+        "5.0",
+        "5.5",
+        "6.0",
+        "6.5"
+      ],
+      "Rifle Flighted": [
+        "5.0",
+        "5.5",
+        "6.0",
+        "6.5"
+      ]
+    },
+    "Basileus": {
+      "Basileus BiZ Iron": [
+        "スペック要確認"
+      ]
+    },
+    "DERAMAX": {
+      "Iron Series": [
+        "スペック要確認"
+      ]
+    },
+    "RODDIO": {
+      "I-Series": [
+        "スペック要確認"
       ]
     }
   }
