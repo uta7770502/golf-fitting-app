@@ -1,5 +1,5 @@
 {
-  "version": "3.0",
+  "version": "3.1",
   "purpose": "Multi-category club catalog for linked manufacturer/year/model/spec selectors",
   "notes": "Expanded wedge coverage substantially, including Cleveland legacy families and boutique/JDM wedge makers. Unverified lofts remain explicitly marked for later spec completion.",
   "categories": {
@@ -3721,6 +3721,91 @@
             "60°",
             "62°"
           ]
+        },
+        {
+          "model": "Glide 3.0",
+          "year": 2019,
+          "specs": [
+            "46°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Glide 2.0",
+          "year": 2017,
+          "specs": [
+            "46°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Glide Forged",
+          "year": 2018,
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Glide",
+          "year": 2015,
+          "specs": [
+            "47°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Tour Gorge",
+          "year": 2012,
+          "specs": [
+            "47°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Tour-S",
+          "year": 2010,
+          "specs": [
+            "47°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Eye2 Gorge",
+          "year": "歴代",
+          "specs": [
+            "56°",
+            "60°"
+          ]
         }
       ],
       "Titleist": [
@@ -4674,6 +4759,20 @@
           "specs": [
             "ロフト要確認"
           ]
+        },
+        {
+          "model": "J15 WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "JGR FORGED WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
         }
       ],
       "PRGR": [
@@ -4713,6 +4812,13 @@
           "year": 2023,
           "specs": [
             "55°"
+          ]
+        },
+        {
+          "model": "R35 WEDGE",
+          "year": 2010,
+          "specs": [
+            "35°"
           ]
         }
       ],
@@ -4758,6 +4864,78 @@
             "56°",
             "58°",
             "60°"
+          ]
+        },
+        {
+          "model": "RM-4",
+          "year": "歴代",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RM-22",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "DJ-5",
+          "year": "歴代",
+          "specs": [
+            "44°",
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "DJ-4",
+          "year": "歴代",
+          "specs": [
+            "44°",
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "C036 FORGED",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "RM-21",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "MT-28 V5",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
           ]
         }
       ],
@@ -4852,6 +5030,27 @@
             "AW",
             "SW"
           ]
+        },
+        {
+          "model": "RMX TOURMODEL WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "RMX WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "inpres X WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
         }
       ],
       "ONOFF": [
@@ -4874,6 +5073,20 @@
             "51°",
             "58°",
             "64°"
+          ]
+        },
+        {
+          "model": "ONOFF WEDGE FROG'S LEAP II",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "ONOFF WEDGE FROG'S LEAP",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
           ]
         }
       ],
@@ -4902,6 +5115,39 @@
             "56°",
             "58°",
             "60°"
+          ]
+        },
+        {
+          "model": "T//WORLD TW-W 2021",
+          "year": 2021,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "T//WORLD TW-W",
+          "year": "歴代",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "TOUR WORLD TW-W",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
           ]
         }
       ],
