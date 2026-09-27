@@ -1,5 +1,5 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "manufacturers": {
     "L.A.B. Golf": [
       {
@@ -60,6 +60,50 @@
       {
         "model": "DF 2.1",
         "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "DF3 CB",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "MEZZ.1 MAX CB",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "OZ.1i",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "OZ.1i HS",
+        "year": "現行",
         "specs": [
           "32inch",
           "33inch",
@@ -137,6 +181,127 @@
           "35inch",
           "36inch"
         ]
+      },
+      {
+        "model": "BB1",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "BB8W",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "BB28",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "QUEEN B 6",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "QUEEN B 11",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "QUEEN B 14",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "INOVAI 6.0",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "INOVAI 8.0",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "INOVAI 9.0",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STUDIO STOCK 8",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STUDIO STOCK 28",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
       }
     ],
     "EVNROLL": [
@@ -176,6 +341,127 @@
       {
         "model": "ZERO Series",
         "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ER1V",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ER2V",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ER5V",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ER8V",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ER10V",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ER11V",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "EV5.1",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "EV5.2",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "EV8",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ZERO Z1",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ZERO Z2",
+        "year": "現行",
         "specs": [
           "32inch",
           "33inch",
@@ -377,11 +663,110 @@
           "35inch",
           "36inch"
         ]
+      },
+      {
+        "model": "HB SOFT 2 #1",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "HB SOFT 2 #8",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "HB SOFT 2 #11",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "FRONTLINE ELITE 1.0",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "FRONTLINE ELITE ELEVADO",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
       }
     ],
     "PRGR": [
       {
         "model": "Silver-Blade Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Silver-Blade α",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Silver-Blade EE",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Silver-Blade DD",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Silver-Blade FF",
         "year": "歴代",
         "specs": [
           "32inch",
@@ -599,6 +984,72 @@
           "35inch",
           "36inch"
         ]
+      },
+      {
+        "model": "Austin",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Chicago",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Madison",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Memphis",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Portland",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Seattle",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
       }
     ],
     "KRONOS": [
@@ -737,6 +1188,380 @@
           "35inch",
           "36inch"
         ]
+      },
+      {
+        "model": "PLD MILLED ANSER 30",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED ANSER 4D",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED ANSER D",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED ANSER 2D",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED KUSHIN",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED OSLO 3",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED OSLO 4",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED OSLO C",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED OSLO CB",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED OSLO L",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED ALLY BLUE 4",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SCOTTSDALE ANSER",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SCOTTSDALE ANSER 2D",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SCOTTSDALE ANSER 4",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SCOTTSDALE DS72",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SCOTTSDALE PRIME TYNE 4",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SCOTTSDALE PRIME TYNE C",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SCOTTSDALE B63",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SCOTTSDALE CRAZ-E",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SCOTTSDALE OSLO 3",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "G425 ANSER",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "G425 ANSER 2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "G425 TYNE 4",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "G425 FETCH",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SIGMA 2 FETCH",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SIGMA 2 TYNE",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SIGMA 2 KUSHIN C",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "VAULT 2.0 DALE ANSER",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "VAULT 2.0 PIPER",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "CADENCE TR ANSER 2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "CADENCE TR KETSCH",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "KARSTEN TR ANSER 2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "i-Series ANSER",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "REDWOOD ANSER",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
       }
     ],
     "Scotty Cameron": [
@@ -797,6 +1622,501 @@
       },
       {
         "model": "Studio Select Newport 2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SUPER SELECT SQUAREBACK 2",
+        "year": 2023,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SUPER SELECT FASTBACK 1.5",
+        "year": 2023,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SUPER SELECT DEL MAR",
+        "year": 2023,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SUPER SELECT GOLO 6",
+        "year": 2023,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PHANTOM 5",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PHANTOM 5.5",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PHANTOM 7",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PHANTOM 7.5",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PHANTOM 9",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PHANTOM 9.5",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PHANTOM 11",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PHANTOM 11.5",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SPECIAL SELECT NEWPORT",
+        "year": "2020",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SPECIAL SELECT NEWPORT 2.5",
+        "year": "2020",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SPECIAL SELECT SQUAREBACK 2",
+        "year": "2020",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SPECIAL SELECT FASTBACK 1.5",
+        "year": "2020",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SPECIAL SELECT FLOWBACK 5",
+        "year": "2020",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SELECT NEWPORT",
+        "year": "2016-2018",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SELECT NEWPORT 2",
+        "year": "2016-2018",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SELECT NEWPORT 2.5",
+        "year": "2016-2018",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SELECT NEWPORT 3",
+        "year": "2016-2018",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SELECT FASTBACK",
+        "year": "2014-2018",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SELECT SQUAREBACK",
+        "year": "2014-2018",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "GOLO 3",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "GOLO 5",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "GOLO 6",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "GOLO 7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "FUTURA X",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "FUTURA 5CB",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "FUTURA 5MB",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "FUTURA 6M",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "FUTURA 7M",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STUDIO SELECT NEWPORT",
+        "year": "2008-2011",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STUDIO SELECT NEWPORT 1.5",
+        "year": "2008-2011",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STUDIO SELECT NEWPORT 2.7",
+        "year": "2008-2011",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STUDIO STYLE NEWPORT",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STUDIO STYLE NEWPORT 2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "CIRCA 62 No.1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "CIRCA 62 No.2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "DET0UR NEWPORT 2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "FUTURA",
+        "year": "2003-2004",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "FUTURA PHANTOM",
+        "year": "2005-2006",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PRO PLATINUM NEWPORT 2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TEI3 NEWPORT 2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "CLASSIC NEWPORT",
         "year": "歴代",
         "specs": [
           "32inch",
@@ -884,6 +2204,468 @@
           "35inch",
           "36inch"
         ]
+      },
+      {
+        "model": "Ai-ONE DOUBLE WIDE",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Ai-ONE ROSSIE",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Ai-ONE JAILBIRD MINI",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Ai-ONE MILLED ONE T",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Ai-ONE MILLED TWO T",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Ai-ONE MILLED THREE T S",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Ai-ONE MILLED SIX T",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Ai-ONE MILLED ELEVEN T",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TRI-HOT 5K ONE",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TRI-HOT 5K THREE",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TRI-HOT 5K DOUBLE WIDE",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT OG #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT OG #1WS",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT OG #5",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT OG ROSSIE",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT OG 2-BALL",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT OG DOUBLE WIDE",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT OG JAILBIRD",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STROKE LAB #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STROKE LAB #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STROKE LAB R-BALL",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STROKE LAB TEN",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "O-WORKS #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "O-WORKS 2-BALL",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "O-WORKS RED #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "O-WORKS BLACK #1W",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WORKS VERSA #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WORKS VERSA #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "METAL-X MILLED #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "METAL-X MILLED #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "VERSA #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "VERSA 2-BALL",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE ICE #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE ICE 2-BALL",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT XG #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT XG #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT XG 2-BALL",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "BLACK SERIES TOUR DESIGNS #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "DFX #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "DFX #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "2-BALL TEN",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ELEVEN TOUR LINED",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
       }
     ],
     "TaylorMade": [
@@ -955,6 +2737,550 @@
       },
       {
         "model": "TP Juno",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider TOUR Z",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider TOUR V",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider TOUR S",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider TOUR DOUBLE BEND",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider GT MAX",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider GT NOTCHBACK",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider GT ROLLBACK",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider EX",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider SR",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider S",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider MINI",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider ARC",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider TOUR RED",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider TOUR BLACK",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "MONZA SPIDER",
+        "year": "2009",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TRUSS TB1",
+        "year": "2020",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TRUSS TB2",
+        "year": "2020",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TRUSS TM1",
+        "year": "2020",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TRUSS TM2",
+        "year": "2020",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TP HYDRO BLAST JUNO TB1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TP HYDRO BLAST SOTO",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TP HYDRO BLAST BANDON",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TP HYDRO BLAST DEL MONTE",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Mizuno": [
+      {
+        "model": "M.CRAFT I",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "M.CRAFT II",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "M.CRAFT III",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "OMOI 01",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "OMOI 02",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "OMOI 03",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "COBRA": [
+      {
+        "model": "KING 3D PRINTED AGERA",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "KING 3D PRINTED GRANDSPORT-35",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "KING VINTAGE SPORT-45",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "KING VINTAGE WIDESPORT",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Srixon": [
+      {
+        "model": "P-105",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "P-109",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "YAMAHA": [
+      {
+        "model": "inpres Putter",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "RMX Putter",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "ONOFF": [
+      {
+        "model": "ONOFF Putter Lady",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ONOFF Putter",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Rife": [
+      {
+        "model": "2-Bar Mallet",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Abaco",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Barbados",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Never Compromise": [
+      {
+        "model": "Gambler Royal",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Dinero Baron",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Sub 30 Type 10",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Nike": [
+      {
+        "model": "Method 001",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Method 006",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Method Core Drone",
         "year": "歴代",
         "specs": [
           "32inch",
