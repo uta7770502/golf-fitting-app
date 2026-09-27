@@ -1,5 +1,5 @@
 {
-  "version": "2.9",
+  "version": "3.0",
   "purpose": "Multi-category club catalog for linked manufacturer/year/model/spec selectors",
   "notes": "Expanded wedge coverage substantially, including Cleveland legacy families and boutique/JDM wedge makers. Unverified lofts remain explicitly marked for later spec completion.",
   "categories": {
@@ -3969,6 +3969,140 @@
         }
       ],
       "Cleveland": [
+        {
+          "model": "RT i-FORGED",
+          "year": 2026,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RTZ",
+          "year": 2025,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CBZ",
+          "year": 2025,
+          "specs": [
+            "44°",
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RTX FULL-FACE 2",
+          "year": 2024,
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°",
+            "64°"
+          ]
+        },
+        {
+          "model": "CVX 2 ZIPCORE",
+          "year": 2024,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RTX DEEP FORGED 2",
+          "year": 2023,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RTX DEEP FORGED",
+          "year": "歴代",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RTX FULL-FACE",
+          "year": "歴代",
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°",
+            "64°"
+          ]
+        },
+        {
+          "model": "CBX FULL-FACE 2",
+          "year": "歴代",
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°",
+            "64°"
+          ]
+        },
+        {
+          "model": "CBX FULL-FACE",
+          "year": "歴代",
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°",
+            "64°"
+          ]
+        },
         {
           "model": "RTX 6 ZIPCORE",
           "year": 2023,
