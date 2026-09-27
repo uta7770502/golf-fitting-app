@@ -1,7 +1,7 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "purpose": "Multi-category club catalog for linked manufacturer/year/model/spec selectors",
-  "notes": "Expanded beta catalog across fairways, hybrids, irons and wedges. Includes major global/JDM brands and representative legacy models.",
+  "notes": "Expanded beta catalog with boutique/JDM component brands across fairway, utility, iron and wedge. Official-source verified where possible; unspecified lofts are not inferred.",
   "categories": {
     "フェアウェイウッド": {
       "PING": [
@@ -428,6 +428,97 @@
             "7W 22°"
           ]
         }
+      ],
+      "BALDO": [
+        {
+          "model": "UNUS MODEL FD FAIRWAY WOOD",
+          "year": 2026,
+          "specs": [
+            "3W",
+            "5W",
+            "7W"
+          ]
+        },
+        {
+          "model": "TT FAIRWAY WOOD GT PROTO",
+          "year": "現行",
+          "specs": [
+            "3W",
+            "5W"
+          ]
+        },
+        {
+          "model": "SKY DRIVE FAIRWAY WOOD",
+          "year": "現行",
+          "specs": [
+            "3W",
+            "5W",
+            "7W"
+          ]
+        },
+        {
+          "model": "COMPETIZIONE 568 FAIRWAY WOOD",
+          "year": "歴代",
+          "specs": [
+            "3W",
+            "5W",
+            "7W"
+          ]
+        }
+      ],
+      "JBEAM": [
+        {
+          "model": "GZ FW",
+          "year": "現行",
+          "specs": [
+            "3W 15°",
+            "5W 18°"
+          ]
+        },
+        {
+          "model": "KZ-5 FW",
+          "year": "現行",
+          "specs": [
+            "3W",
+            "5W"
+          ]
+        }
+      ],
+      "GTD": [
+        {
+          "model": "GTD FAIRWAY WOOD",
+          "year": "現行",
+          "specs": [
+            "15°"
+          ]
+        },
+        {
+          "model": "Black Ice Fairway Wood",
+          "year": "歴代",
+          "specs": [
+            "3W",
+            "5W"
+          ]
+        }
+      ],
+      "muziik": [
+        {
+          "model": "On The Screw DF2 HEAVEN",
+          "year": "現行",
+          "specs": [
+            "3W",
+            "5W",
+            "7W"
+          ]
+        },
+        {
+          "model": "On The Screw DF Fairway Wood",
+          "year": "歴代",
+          "specs": [
+            "3W",
+            "5W"
+          ]
+        }
       ]
     },
     "ユーティリティ/HY": {
@@ -824,6 +915,117 @@
             "25°",
             "28°",
             "31°"
+          ]
+        }
+      ],
+      "BALDO": [
+        {
+          "model": "UNUS MODEL UD UTILITY",
+          "year": 2026,
+          "specs": [
+            "U2",
+            "U3",
+            "U4",
+            "U5"
+          ]
+        },
+        {
+          "model": "TT UTILITY GT PROTO",
+          "year": "現行",
+          "specs": [
+            "U2",
+            "U3",
+            "U4",
+            "U5"
+          ]
+        },
+        {
+          "model": "SKY DRIVE UW",
+          "year": "現行",
+          "specs": [
+            "U3",
+            "U4",
+            "U5"
+          ]
+        },
+        {
+          "model": "TT UTILITY",
+          "year": "現行",
+          "specs": [
+            "U2",
+            "U3",
+            "U4",
+            "U5"
+          ]
+        },
+        {
+          "model": "COMPETIZIONE 568 UTILITY",
+          "year": "歴代",
+          "specs": [
+            "U2",
+            "U3",
+            "U4",
+            "U5"
+          ]
+        }
+      ],
+      "JBEAM": [
+        {
+          "model": "G-UT",
+          "year": "現行",
+          "specs": [
+            "3U 18°",
+            "4U 21°",
+            "5U 24°"
+          ]
+        },
+        {
+          "model": "J-UT",
+          "year": "現行",
+          "specs": [
+            "U3",
+            "U4",
+            "U5"
+          ]
+        }
+      ],
+      "GTD": [
+        {
+          "model": "GTD UTILITY WOOD",
+          "year": "現行",
+          "specs": [
+            "18°",
+            "21°",
+            "24°"
+          ]
+        },
+        {
+          "model": "Black Ice Utility",
+          "year": "歴代",
+          "specs": [
+            "18°",
+            "21°",
+            "24°"
+          ]
+        }
+      ],
+      "muziik": [
+        {
+          "model": "On The Screw DU2 HEAVEN",
+          "year": "現行",
+          "specs": [
+            "U3",
+            "U4",
+            "U5"
+          ]
+        },
+        {
+          "model": "On The Screw DU Utility",
+          "year": "歴代",
+          "specs": [
+            "U3",
+            "U4",
+            "U5"
           ]
         }
       ]
@@ -1752,6 +1954,155 @@
             "PW"
           ]
         }
+      ],
+      "BALDO": [
+        {
+          "model": "UNUS MODEL MCB FORGED IRON",
+          "year": 2026,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "TT FORGED IRON GT PROTO",
+          "year": "現行",
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "CORSA FORGED IRON",
+          "year": "歴代",
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
+      ],
+      "GTD": [
+        {
+          "model": "George Takei CB Iron",
+          "year": 2026,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "GTD Cross Forged Iron",
+          "year": "歴代",
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
+      ],
+      "Zodia": [
+        {
+          "model": "CROSSING III",
+          "year": "現行",
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "The Origin",
+          "year": "現行",
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "CGX-CB II",
+          "year": "現行",
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
+      ],
+      "Masda Golf": [
+        {
+          "model": "HC-01",
+          "year": "現行",
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "JM-H2",
+          "year": "歴代",
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "Fast Muscle Iron",
+          "year": "歴代",
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
       ]
     },
     "ウェッジ": {
@@ -2235,6 +2586,116 @@
             "56°",
             "58°",
             "60°"
+          ]
+        }
+      ],
+      "BALDO": [
+        {
+          "model": "UNUS MODEL BBW FORGED WEDGE",
+          "year": 2026,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "TT FORGED WEDGE",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CORSA FORGED WEDGE",
+          "year": "歴代",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "GTD": [
+        {
+          "model": "GTD WEDGE",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "Zodia": [
+        {
+          "model": "V3.0 WEDGE",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CGX WEDGE",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "Masda Golf": [
+        {
+          "model": "M425/S WEDGE",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°"
+          ]
+        },
+        {
+          "model": "STUDIO WEDGE M425",
+          "year": "歴代",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°"
           ]
         }
       ]
