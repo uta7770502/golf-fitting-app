@@ -1,5 +1,5 @@
 {
-  "version": "3.1",
+  "version": "3.2",
   "purpose": "Multi-category club catalog for linked manufacturer/year/model/spec selectors",
   "notes": "Expanded wedge coverage substantially, including Cleveland legacy families and boutique/JDM wedge makers. Unverified lofts remain explicitly marked for later spec completion.",
   "categories": {
@@ -192,6 +192,62 @@
             "5W 18°",
             "7W 21°"
           ]
+        },
+        {
+          "model": "EPIC SPEED FAIRWAY",
+          "year": 2021,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "EPIC MAX FAIRWAY",
+          "year": 2021,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "Heavenwood 20°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "MAVRIK FAIRWAY",
+          "year": 2020,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "ROGUE FAIRWAY",
+          "year": 2018,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "GBB EPIC FAIRWAY",
+          "year": 2017,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "XR 16 FAIRWAY",
+          "year": 2016,
+          "specs": [
+            "3W 15°",
+            "4W 17°",
+            "5W 19°",
+            "7W 21°"
+          ]
         }
       ],
       "SRIXON": [
@@ -312,6 +368,31 @@
             "3W 15°",
             "5W 18°"
           ]
+        },
+        {
+          "model": "B1 FAIRWAY",
+          "year": 2021,
+          "specs": [
+            "3W 15°",
+            "5W 18°"
+          ]
+        },
+        {
+          "model": "B2 FAIRWAY",
+          "year": 2021,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "TOUR B XD-F",
+          "year": 2018,
+          "specs": [
+            "3W 15°",
+            "5W 18°"
+          ]
         }
       ],
       "PRGR": [
@@ -358,6 +439,32 @@
           "specs": [
             "3W 15°",
             "5W 18°"
+          ]
+        },
+        {
+          "model": "RMX VD FW",
+          "year": 2022,
+          "specs": [
+            "3W 15°",
+            "5W 18°"
+          ]
+        },
+        {
+          "model": "RMX 220 FW",
+          "year": 2020,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "inpres UD+2 FW",
+          "year": 2021,
+          "specs": [
+            "3W 14.5°",
+            "5W 17°",
+            "7W 19°"
           ]
         }
       ],
@@ -407,6 +514,33 @@
             "5W 18°",
             "7W 21°"
           ]
+        },
+        {
+          "model": "TW757 FW",
+          "year": 2022,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "TW747 FW",
+          "year": 2018,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "TW737 FW",
+          "year": 2016,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
         }
       ],
       "PXG": [
@@ -426,6 +560,33 @@
             "3W 16°",
             "5W 19°",
             "7W 22°"
+          ]
+        },
+        {
+          "model": "0311 GEN6 FAIRWAY",
+          "year": 2023,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "0311 GEN5 FAIRWAY",
+          "year": 2022,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "0341 X GEN4 FAIRWAY",
+          "year": 2021,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°"
           ]
         }
       ],
@@ -482,6 +643,23 @@
             "3W",
             "5W"
           ]
+        },
+        {
+          "model": "BM-435 FW",
+          "year": "歴代",
+          "specs": [
+            "3W",
+            "5W"
+          ]
+        },
+        {
+          "model": "ZY-11 FW",
+          "year": "歴代",
+          "specs": [
+            "3W",
+            "5W",
+            "7W"
+          ]
         }
       ],
       "GTD": [
@@ -494,6 +672,22 @@
         },
         {
           "model": "Black Ice Fairway Wood",
+          "year": "歴代",
+          "specs": [
+            "3W",
+            "5W"
+          ]
+        },
+        {
+          "model": "GT-FW",
+          "year": "歴代",
+          "specs": [
+            "3W",
+            "5W"
+          ]
+        },
+        {
+          "model": "Code K FW",
           "year": "歴代",
           "specs": [
             "3W",
@@ -742,6 +936,55 @@
             "5H 24°",
             "6H 27°"
           ]
+        },
+        {
+          "model": "APEX UW",
+          "year": 2022,
+          "specs": [
+            "17°",
+            "19°",
+            "21°"
+          ]
+        },
+        {
+          "model": "APEX HYBRID",
+          "year": 2021,
+          "specs": [
+            "3H 19°",
+            "4H 21°",
+            "5H 24°",
+            "6H 27°"
+          ]
+        },
+        {
+          "model": "MAVRIK HYBRID",
+          "year": 2020,
+          "specs": [
+            "3H 18°",
+            "4H 20°",
+            "5H 23°",
+            "6H 26°"
+          ]
+        },
+        {
+          "model": "ROGUE HYBRID",
+          "year": 2018,
+          "specs": [
+            "3H 19°",
+            "4H 21°",
+            "5H 24°",
+            "6H 27°"
+          ]
+        },
+        {
+          "model": "XR OS HYBRID",
+          "year": 2016,
+          "specs": [
+            "3H 19°",
+            "4H 22°",
+            "5H 25°",
+            "6H 28°"
+          ]
         }
       ],
       "SRIXON": [
@@ -868,6 +1111,33 @@
             "H5 25°",
             "H6 28°"
           ]
+        },
+        {
+          "model": "B1 HY",
+          "year": 2021,
+          "specs": [
+            "H3 19°",
+            "H4 22°",
+            "H5 25°"
+          ]
+        },
+        {
+          "model": "B2 HY",
+          "year": 2021,
+          "specs": [
+            "H3 19°",
+            "H4 22°",
+            "H5 25°"
+          ]
+        },
+        {
+          "model": "TOUR B XD-H",
+          "year": 2018,
+          "specs": [
+            "H3 18°",
+            "H4 21°",
+            "H5 24°"
+          ]
         }
       ],
       "PRGR": [
@@ -918,6 +1188,24 @@
             "U4 19°",
             "U5 22°",
             "U6 25°"
+          ]
+        },
+        {
+          "model": "RMX UT",
+          "year": 2020,
+          "specs": [
+            "U4 19°",
+            "U5 22°",
+            "U6 25°"
+          ]
+        },
+        {
+          "model": "inpres UD+2 UT",
+          "year": 2021,
+          "specs": [
+            "U4 19°",
+            "U5 21.5°",
+            "U6 24°"
           ]
         }
       ],
@@ -970,6 +1258,33 @@
             "U5 25°",
             "U6 28°"
           ]
+        },
+        {
+          "model": "TW757 UT",
+          "year": 2022,
+          "specs": [
+            "U3 19°",
+            "U4 22°",
+            "U5 25°"
+          ]
+        },
+        {
+          "model": "TW747 UT",
+          "year": 2018,
+          "specs": [
+            "U3 19°",
+            "U4 22°",
+            "U5 25°"
+          ]
+        },
+        {
+          "model": "TW737 UT",
+          "year": 2016,
+          "specs": [
+            "U3 19°",
+            "U4 22°",
+            "U5 25°"
+          ]
         }
       ],
       "PXG": [
@@ -993,6 +1308,36 @@
             "25°",
             "28°",
             "31°"
+          ]
+        },
+        {
+          "model": "0311 GEN6 HYBRID",
+          "year": 2023,
+          "specs": [
+            "19°",
+            "22°",
+            "25°",
+            "28°"
+          ]
+        },
+        {
+          "model": "0311 GEN5 HYBRID",
+          "year": 2022,
+          "specs": [
+            "19°",
+            "22°",
+            "25°",
+            "28°"
+          ]
+        },
+        {
+          "model": "0317 X GEN4 HYBRID",
+          "year": 2021,
+          "specs": [
+            "19°",
+            "22°",
+            "25°",
+            "28°"
           ]
         }
       ],
@@ -1065,6 +1410,24 @@
             "U4",
             "U5"
           ]
+        },
+        {
+          "model": "BM-UT",
+          "year": "歴代",
+          "specs": [
+            "U3",
+            "U4",
+            "U5"
+          ]
+        },
+        {
+          "model": "ZY-UT",
+          "year": "歴代",
+          "specs": [
+            "U3",
+            "U4",
+            "U5"
+          ]
         }
       ],
       "GTD": [
@@ -1079,6 +1442,24 @@
         },
         {
           "model": "Black Ice Utility",
+          "year": "歴代",
+          "specs": [
+            "18°",
+            "21°",
+            "24°"
+          ]
+        },
+        {
+          "model": "GTD HYBRID",
+          "year": "歴代",
+          "specs": [
+            "18°",
+            "21°",
+            "24°"
+          ]
+        },
+        {
+          "model": "Code K UT",
           "year": "歴代",
           "specs": [
             "18°",
