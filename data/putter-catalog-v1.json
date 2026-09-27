@@ -1,1 +1,653 @@
-{"version":"1.0","manufacturers":{"L.A.B. Golf":[{"model":"DF3","year":"現行"},{"model":"MEZZ.1","year":"現行"},{"model":"MEZZ.1 MAX","year":"現行"},{"model":"OZ.1","year":"現行"},{"model":"LINK.1","year":"現行"},{"model":"DF 2.1","year":"歴代"}],"John Byron / Byron Design":[{"model":"Dale Head / Dale Head 2 系","year":"年代不明"},{"model":"006 / 007 系","year":"年代不明"},{"model":"DH89 系","year":"年代不明"}],"Bettinardi":[{"model":"BB Series","year":"歴代"},{"model":"Queen B Series","year":"歴代"},{"model":"Inovai Series","year":"歴代"}],"EVNROLL":[{"model":"ER1 / ER1.2","year":"歴代"},{"model":"ER2 / ER2B","year":"歴代"},{"model":"ER5 / ER5B","year":"歴代"},{"model":"ZERO Series","year":"歴代"}],"SeeMore":[{"model":"FPG","year":"歴代"},{"model":"mFGP","year":"歴代"},{"model":"SI Series","year":"歴代"}],"YES! Golf":[{"model":"C-Groove Series","year":"歴代"}],"Gold's Factory":[{"model":"Hand Made / Custom Putter","year":"歴代"}],"Gauge Design":[{"model":"Gauge Design Putter 歴代","year":"歴代"}],"Masda Golf":[{"model":"STUDIO-1","year":"歴代"},{"model":"STUDIO-2","year":"歴代"},{"model":"STUDIO-3","year":"歴代"},{"model":"Handmade Putter","year":"歴代"}],"Yamada Putter":[{"model":"Emperor","year":"歴代"},{"model":"Borzov","year":"歴代"},{"model":"Razor","year":"歴代"}],"Hiro Matsumoto":[{"model":"MZ Series / 歴代モデル","year":"歴代"}],"PXG":[{"model":"Battle Ready / Battle Ready II Series","year":"歴代"}],"Cleveland":[{"model":"HB SOFT / HB SOFT 2 Series","year":"歴代"}],"PRGR":[{"model":"Silver-Blade Series","year":"歴代"}],"HONMA":[{"model":"BERES / TOUR WORLD Putter 歴代","year":"歴代"}],"Bridgestone":[{"model":"TOUR B Putter 歴代","year":"歴代"}],"Fourteen":[{"model":"Putter 歴代","year":"歴代"}],"RomaRo":[{"model":"Putter 歴代","year":"歴代"}],"Miura":[{"model":"KM Putter Series","year":"歴代"}],"Wilson":[{"model":"Staff Putter 歴代","year":"歴代"}]}}
+{
+  "version": "1.1",
+  "manufacturers": {
+    "L.A.B. Golf": [
+      {
+        "model": "DF3",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "MEZZ.1",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "MEZZ.1 MAX",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "OZ.1",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "LINK.1",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "DF 2.1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "John Byron / Byron Design": [
+      {
+        "model": "Dale Head / Dale Head 2 系",
+        "year": "年代不明",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "006 / 007 系",
+        "year": "年代不明",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "DH89 系",
+        "year": "年代不明",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Bettinardi": [
+      {
+        "model": "BB Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Queen B Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Inovai Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "EVNROLL": [
+      {
+        "model": "ER1 / ER1.2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ER2 / ER2B",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ER5 / ER5B",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "ZERO Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "SeeMore": [
+      {
+        "model": "FPG",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "mFGP",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SI Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "YES! Golf": [
+      {
+        "model": "C-Groove Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Gold's Factory": [
+      {
+        "model": "Hand Made / Custom Putter",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Gauge Design": [
+      {
+        "model": "Gauge Design Putter 歴代",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Masda Golf": [
+      {
+        "model": "STUDIO-1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STUDIO-2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "STUDIO-3",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Handmade Putter",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Yamada Putter": [
+      {
+        "model": "Emperor",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Borzov",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Razor",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Hiro Matsumoto": [
+      {
+        "model": "MZ Series / 歴代モデル",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "PXG": [
+      {
+        "model": "Battle Ready / Battle Ready II Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Cleveland": [
+      {
+        "model": "HB SOFT / HB SOFT 2 Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "PRGR": [
+      {
+        "model": "Silver-Blade Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "HONMA": [
+      {
+        "model": "BERES / TOUR WORLD Putter 歴代",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Bridgestone": [
+      {
+        "model": "TOUR B Putter 歴代",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Fourteen": [
+      {
+        "model": "Putter 歴代",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "RomaRo": [
+      {
+        "model": "Putter 歴代",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Miura": [
+      {
+        "model": "KM Putter Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Wilson": [
+      {
+        "model": "Staff Putter 歴代",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Axis1": [
+      {
+        "model": "Rose-B",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Tour-HM",
+        "year": "現行",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "SIK Golf": [
+      {
+        "model": "DW 2.0 C-Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Pro C-Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Edel": [
+      {
+        "model": "EAS Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Array Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Piretti": [
+      {
+        "model": "Cottonwood II",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Potenza II",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "TOULON": [
+      {
+        "model": "San Diego",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Las Vegas",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Atlanta",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "KRONOS": [
+      {
+        "model": "Touch",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Mandalas",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "T.P. Mills": [
+      {
+        "model": "Tradition Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Handmade Series",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ]
+  }
+}
