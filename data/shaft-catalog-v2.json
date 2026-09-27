@@ -1,5 +1,5 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "notes": "Expanded specialist/high-speed/custom-fit wood shaft catalog. Official-model additions include KBS and ACCRA; continue model-by-model verification.",
   "manufacturers": {
     "Graphite Design": {
@@ -1376,6 +1376,273 @@
         "K.H.T 405",
         "K.H.T 505",
         "K.H.T 505X"
+      ]
+    },
+    "ALDILA": {
+      "NV Green": [
+        "スペック要確認"
+      ],
+      "NVS Orange": [
+        "スペック要確認"
+      ],
+      "NV 2KXV Green": [
+        "スペック要確認"
+      ],
+      "NV 2KXV Blue": [
+        "スペック要確認"
+      ],
+      "NV 2KXV Orange": [
+        "スペック要確認"
+      ],
+      "RIP Alpha": [
+        "スペック要確認"
+      ],
+      "RIP Beta": [
+        "スペック要確認"
+      ],
+      "RIP Phenom": [
+        "スペック要確認"
+      ],
+      "RIPX": [
+        "スペック要確認"
+      ],
+      "ROGUE Silver 130 MSI": [
+        "スペック要確認"
+      ],
+      "ROGUE Black 130 MSI": [
+        "スペック要確認"
+      ],
+      "ROGUE Silver 110 MSI": [
+        "スペック要確認"
+      ],
+      "ROGUE Elite Orange": [
+        "スペック要確認"
+      ],
+      "ROGUE Elite Blue": [
+        "スペック要確認"
+      ],
+      "ROGUE Elite Green": [
+        "スペック要確認"
+      ],
+      "Quaranta Blue": [
+        "スペック要確認"
+      ],
+      "Synergy Blue": [
+        "スペック要確認"
+      ],
+      "ASCENT Ultralight": [
+        "スペック要確認"
+      ],
+      "ASCENT Red": [
+        "スペック要確認"
+      ]
+    },
+    "Project X / True Temper": {
+      "HZRDUS Black": [
+        "スペック要確認"
+      ],
+      "HZRDUS Yellow": [
+        "スペック要確認"
+      ],
+      "HZRDUS Red": [
+        "スペック要確認"
+      ],
+      "HZRDUS T1100": [
+        "スペック要確認"
+      ],
+      "HZRDUS Smoke Black": [
+        "スペック要確認"
+      ],
+      "HZRDUS Smoke Black RDX": [
+        "スペック要確認"
+      ],
+      "HZRDUS Smoke Blue RDX": [
+        "スペック要確認"
+      ],
+      "HZRDUS Smoke Green RDX": [
+        "スペック要確認"
+      ],
+      "HZRDUS Smoke Red RDX": [
+        "スペック要確認"
+      ],
+      "EvenFlow Black": [
+        "スペック要確認"
+      ],
+      "EvenFlow Blue": [
+        "スペック要確認"
+      ],
+      "EvenFlow White": [
+        "スペック要確認"
+      ],
+      "Project X Hand Crafted": [
+        "スペック要確認"
+      ]
+    },
+    "OBAN": {
+      "Devotion": [
+        "45 L",
+        "45 A",
+        "45 R",
+        "45 S",
+        "55 A",
+        "55 R",
+        "55 S",
+        "65 R",
+        "65 S",
+        "65 X",
+        "75 S",
+        "75 X",
+        "85 X"
+      ],
+      "Revenge": [
+        "55 A",
+        "55 R",
+        "55 S",
+        "65 R",
+        "65 S",
+        "75 S"
+      ],
+      "Kiyoshi Purple": [
+        "45 A",
+        "45 R",
+        "55 A",
+        "55 R",
+        "55 S",
+        "65 R",
+        "65 S",
+        "65 X",
+        "75 S",
+        "75 X"
+      ],
+      "Kiyoshi Black": [
+        "スペック要確認"
+      ],
+      "Kiyoshi White": [
+        "スペック要確認"
+      ],
+      "Kiyoshi Gold": [
+        "スペック要確認"
+      ],
+      "Kiyoshi Tour LTD": [
+        "スペック要確認"
+      ],
+      "Hashimoto": [
+        "スペック要確認"
+      ],
+      "Isawa RED": [
+        "スペック要確認"
+      ],
+      "Isawa GLD": [
+        "スペック要確認"
+      ],
+      "AirBurst AK": [
+        "スペック要確認"
+      ],
+      "AirBurst COBALT": [
+        "スペック要確認"
+      ],
+      "AirBurst BURGUNDY": [
+        "スペック要確認"
+      ]
+    },
+    "MATRIX": {
+      "OZIK TP": [
+        "スペック要確認"
+      ],
+      "OZIK XCON": [
+        "スペック要確認"
+      ],
+      "OZIK HD": [
+        "スペック要確認"
+      ],
+      "OZIK Code": [
+        "スペック要確認"
+      ],
+      "OZIK Black Tie": [
+        "スペック要確認"
+      ],
+      "OZIK Red Tie": [
+        "スペック要確認"
+      ],
+      "OZIK White Tie": [
+        "スペック要確認"
+      ]
+    },
+    "QUADRA": {
+      "Fire Express PROTO": [
+        "スペック要確認"
+      ],
+      "Fire Express RR-B": [
+        "スペック要確認"
+      ],
+      "Fire Express MAX Plus": [
+        "スペック要確認"
+      ],
+      "Fire Express EX-V": [
+        "スペック要確認"
+      ]
+    },
+    "Syncagraphite / LOOP": {
+      "LOOP Prototype BW": [
+        "スペック要確認"
+      ],
+      "LOOP Prototype GK": [
+        "スペック要確認"
+      ],
+      "LOOP Prototype LT": [
+        "スペック要確認"
+      ],
+      "LOOP Prototype AI": [
+        "スペック要確認"
+      ]
+    },
+    "OLYMPIC / DERAMAX": {
+      "020D Premium": [
+        "スペック要確認"
+      ],
+      "020D": [
+        "スペック要確認"
+      ],
+      "08D": [
+        "スペック要確認"
+      ],
+      "07D": [
+        "スペック要確認"
+      ]
+    },
+    "REVE": {
+      "IMPACT BORON REVOLVER": [
+        "スペック要確認"
+      ],
+      "ARMORED READY": [
+        "スペック要確認"
+      ],
+      "BREAKOUT": [
+        "スペック要確認"
+      ]
+    },
+    "ARCH": {
+      "NATURAL9 ROSSO": [
+        "スペック要確認"
+      ],
+      "NATURAL9 NERO": [
+        "スペック要確認"
+      ],
+      "CA-01": [
+        "スペック要確認"
+      ]
+    },
+    "Bangvoo": {
+      "Premium Driver": [
+        "スペック要確認"
+      ]
+    },
+    "NUNCHUK": {
+      "NUNCHUK": [
+        "One Flex"
+      ],
+      "NUNCHUK xi": [
+        "One Flex"
       ]
     }
   }
