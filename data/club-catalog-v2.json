@@ -1,127 +1,1882 @@
 {
-  "version":"2.0",
-  "purpose":"Multi-category club catalog for linked manufacturer/year/model/spec selectors",
-  "notes":"Catalog foundation. Production metadata should be progressively verified against official regional archives; unknown values are not inferred.",
-  "categories":{
-    "フェアウェイウッド":{
-      "PING":[
-        {"model":"G440 MAX","year":2025,"specs":["3W 15°","4W 17°","5W 19°","7W 21°","9W 24°"]},
-        {"model":"G440 SFT","year":2025,"specs":["3W 16°","5W 19°","7W 22°"]},
-        {"model":"G430 MAX","year":2022,"specs":["3W 15°","5W 18°","7W 21°","9W 24°"]},
-        {"model":"G430 SFT","year":2022,"specs":["3W 16°","5W 19°","7W 22°"]},
-        {"model":"G425 MAX","year":2020,"specs":["3W 14.5°","5W 17.5°","7W 20.5°","9W 23.5°"]},
-        {"model":"G410","year":2019,"specs":["3W 14.5°","5W 17.5°","7W 20.5°","9W 23.5°"]},
-        {"model":"G400","year":2017,"specs":["3W 14.5°","5W 17.5°","7W 20.5°"]}
+  "version": "2.1",
+  "purpose": "Multi-category club catalog for linked manufacturer/year/model/spec selectors",
+  "notes": "Expanded iron/wedge beta catalog. Current and representative legacy models; continue official-source verification and expansion.",
+  "categories": {
+    "フェアウェイウッド": {
+      "PING": [
+        {
+          "model": "G440 MAX",
+          "year": 2025,
+          "specs": [
+            "3W 15°",
+            "4W 17°",
+            "5W 19°",
+            "7W 21°",
+            "9W 24°"
+          ]
+        },
+        {
+          "model": "G440 SFT",
+          "year": 2025,
+          "specs": [
+            "3W 16°",
+            "5W 19°",
+            "7W 22°"
+          ]
+        },
+        {
+          "model": "G430 MAX",
+          "year": 2022,
+          "specs": [
+            "3W 15°",
+            "5W 18°",
+            "7W 21°",
+            "9W 24°"
+          ]
+        },
+        {
+          "model": "G430 SFT",
+          "year": 2022,
+          "specs": [
+            "3W 16°",
+            "5W 19°",
+            "7W 22°"
+          ]
+        },
+        {
+          "model": "G425 MAX",
+          "year": 2020,
+          "specs": [
+            "3W 14.5°",
+            "5W 17.5°",
+            "7W 20.5°",
+            "9W 23.5°"
+          ]
+        },
+        {
+          "model": "G410",
+          "year": 2019,
+          "specs": [
+            "3W 14.5°",
+            "5W 17.5°",
+            "7W 20.5°",
+            "9W 23.5°"
+          ]
+        },
+        {
+          "model": "G400",
+          "year": 2017,
+          "specs": [
+            "3W 14.5°",
+            "5W 17.5°",
+            "7W 20.5°"
+          ]
+        }
       ],
-      "Titleist":[
-        {"model":"GT2 Fairway","year":2024,"specs":["13.5°","15°","16.5°","18°","21°"]},
-        {"model":"GT3 Fairway","year":2024,"specs":["15°","16.5°","18°"]},
-        {"model":"TSR2 Fairway","year":2022,"specs":["15°","16.5°","18°","21°"]},
-        {"model":"TSR3 Fairway","year":2022,"specs":["13.5°","15°","16.5°","18°"]}
+      "Titleist": [
+        {
+          "model": "GT2 Fairway",
+          "year": 2024,
+          "specs": [
+            "13.5°",
+            "15°",
+            "16.5°",
+            "18°",
+            "21°"
+          ]
+        },
+        {
+          "model": "GT3 Fairway",
+          "year": 2024,
+          "specs": [
+            "15°",
+            "16.5°",
+            "18°"
+          ]
+        },
+        {
+          "model": "TSR2 Fairway",
+          "year": 2022,
+          "specs": [
+            "15°",
+            "16.5°",
+            "18°",
+            "21°"
+          ]
+        },
+        {
+          "model": "TSR3 Fairway",
+          "year": 2022,
+          "specs": [
+            "13.5°",
+            "15°",
+            "16.5°",
+            "18°"
+          ]
+        }
       ],
-      "TaylorMade":[
-        {"model":"Qi35 Fairway","year":2025,"specs":["3W 15°","3HL 16.5°","5W 18°","7W 21°"]},
-        {"model":"Qi10 Fairway","year":2024,"specs":["3W 15°","3HL 16.5°","5W 18°","7W 21°","9W 24°"]},
-        {"model":"STEALTH 2 Fairway","year":2023,"specs":["3W 15°","3HL 16.5°","5W 18°","7W 21°"]},
-        {"model":"SIM2 MAX Fairway","year":2021,"specs":["3W 15°","3HL 16.5°","5W 18°","7W 21°","9W 24°"]}
+      "TaylorMade": [
+        {
+          "model": "Qi35 Fairway",
+          "year": 2025,
+          "specs": [
+            "3W 15°",
+            "3HL 16.5°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "Qi10 Fairway",
+          "year": 2024,
+          "specs": [
+            "3W 15°",
+            "3HL 16.5°",
+            "5W 18°",
+            "7W 21°",
+            "9W 24°"
+          ]
+        },
+        {
+          "model": "STEALTH 2 Fairway",
+          "year": 2023,
+          "specs": [
+            "3W 15°",
+            "3HL 16.5°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        },
+        {
+          "model": "SIM2 MAX Fairway",
+          "year": 2021,
+          "specs": [
+            "3W 15°",
+            "3HL 16.5°",
+            "5W 18°",
+            "7W 21°",
+            "9W 24°"
+          ]
+        }
       ],
-      "Callaway":[
-        {"model":"ELYTE Fairway","year":2025,"specs":["3W 15°","3HL 16.5°","5W 18°","7W 21°","Heavenwood 20°"]},
-        {"model":"PARADYM Ai SMOKE MAX Fairway","year":2024,"specs":["3W 15°","3HL 16.5°","5W 18°","7W 21°","Heavenwood 20°"]},
-        {"model":"PARADYM Fairway","year":2023,"specs":["3W 15°","3HL 16.5°","5W 18°","7W 21°"]}
+      "Callaway": [
+        {
+          "model": "ELYTE Fairway",
+          "year": 2025,
+          "specs": [
+            "3W 15°",
+            "3HL 16.5°",
+            "5W 18°",
+            "7W 21°",
+            "Heavenwood 20°"
+          ]
+        },
+        {
+          "model": "PARADYM Ai SMOKE MAX Fairway",
+          "year": 2024,
+          "specs": [
+            "3W 15°",
+            "3HL 16.5°",
+            "5W 18°",
+            "7W 21°",
+            "Heavenwood 20°"
+          ]
+        },
+        {
+          "model": "PARADYM Fairway",
+          "year": 2023,
+          "specs": [
+            "3W 15°",
+            "3HL 16.5°",
+            "5W 18°",
+            "7W 21°"
+          ]
+        }
       ]
     },
-    "ユーティリティ/HY":{
-      "PING":[
-        {"model":"G440 HYBRID","year":2025,"specs":["2H 17°","3H 20°","4H 23°","5H 26°","6H 30°","7H 34°"]},
-        {"model":"G430 HYBRID","year":2022,"specs":["2H 17°","3H 19°","4H 22°","5H 26°","6H 30°","7H 34°"]},
-        {"model":"G425 HYBRID","year":2020,"specs":["2H 17°","3H 19°","4H 22°","5H 26°","6H 30°","7H 34°"]},
-        {"model":"G410 HYBRID","year":2019,"specs":["2H 17°","3H 19°","4H 22°","5H 26°","6H 30°"]}
+    "ユーティリティ/HY": {
+      "PING": [
+        {
+          "model": "G440 HYBRID",
+          "year": 2025,
+          "specs": [
+            "2H 17°",
+            "3H 20°",
+            "4H 23°",
+            "5H 26°",
+            "6H 30°",
+            "7H 34°"
+          ]
+        },
+        {
+          "model": "G430 HYBRID",
+          "year": 2022,
+          "specs": [
+            "2H 17°",
+            "3H 19°",
+            "4H 22°",
+            "5H 26°",
+            "6H 30°",
+            "7H 34°"
+          ]
+        },
+        {
+          "model": "G425 HYBRID",
+          "year": 2020,
+          "specs": [
+            "2H 17°",
+            "3H 19°",
+            "4H 22°",
+            "5H 26°",
+            "6H 30°",
+            "7H 34°"
+          ]
+        },
+        {
+          "model": "G410 HYBRID",
+          "year": 2019,
+          "specs": [
+            "2H 17°",
+            "3H 19°",
+            "4H 22°",
+            "5H 26°",
+            "6H 30°"
+          ]
+        }
       ],
-      "Titleist":[
-        {"model":"GT2 Hybrid","year":2025,"specs":["18°","21°","24°"]},
-        {"model":"GT3 Hybrid","year":2025,"specs":["19°","21°","24°"]},
-        {"model":"TSR2 Hybrid","year":2023,"specs":["18°","21°","24°"]},
-        {"model":"TSR3 Hybrid","year":2023,"specs":["19°","21°","24°"]}
+      "Titleist": [
+        {
+          "model": "GT2 Hybrid",
+          "year": 2025,
+          "specs": [
+            "18°",
+            "21°",
+            "24°"
+          ]
+        },
+        {
+          "model": "GT3 Hybrid",
+          "year": 2025,
+          "specs": [
+            "19°",
+            "21°",
+            "24°"
+          ]
+        },
+        {
+          "model": "TSR2 Hybrid",
+          "year": 2023,
+          "specs": [
+            "18°",
+            "21°",
+            "24°"
+          ]
+        },
+        {
+          "model": "TSR3 Hybrid",
+          "year": 2023,
+          "specs": [
+            "19°",
+            "21°",
+            "24°"
+          ]
+        }
       ],
-      "TaylorMade":[
-        {"model":"Qi35 RESCUE","year":2025,"specs":["3 19°","4 22°","5 25°","6 28°","7 31°"]},
-        {"model":"Qi10 RESCUE","year":2024,"specs":["3 19°","4 22°","5 25°","6 28°","7 31°"]},
-        {"model":"STEALTH 2 RESCUE","year":2023,"specs":["3 19°","4 22°","5 25°","6 28°","7 31°"]}
+      "TaylorMade": [
+        {
+          "model": "Qi35 RESCUE",
+          "year": 2025,
+          "specs": [
+            "3 19°",
+            "4 22°",
+            "5 25°",
+            "6 28°",
+            "7 31°"
+          ]
+        },
+        {
+          "model": "Qi10 RESCUE",
+          "year": 2024,
+          "specs": [
+            "3 19°",
+            "4 22°",
+            "5 25°",
+            "6 28°",
+            "7 31°"
+          ]
+        },
+        {
+          "model": "STEALTH 2 RESCUE",
+          "year": 2023,
+          "specs": [
+            "3 19°",
+            "4 22°",
+            "5 25°",
+            "6 28°",
+            "7 31°"
+          ]
+        }
       ],
-      "Callaway":[
-        {"model":"ELYTE HYBRID","year":2025,"specs":["3H 19°","4H 22°","5H 24°","6H 27°"]},
-        {"model":"PARADYM Ai SMOKE HYBRID","year":2024,"specs":["3H 18°","4H 21°","5H 24°","6H 27°"]}
+      "Callaway": [
+        {
+          "model": "ELYTE HYBRID",
+          "year": 2025,
+          "specs": [
+            "3H 19°",
+            "4H 22°",
+            "5H 24°",
+            "6H 27°"
+          ]
+        },
+        {
+          "model": "PARADYM Ai SMOKE HYBRID",
+          "year": 2024,
+          "specs": [
+            "3H 18°",
+            "4H 21°",
+            "5H 24°",
+            "6H 27°"
+          ]
+        }
       ]
     },
-    "アイアン":{
-      "PING":[
-        {"model":"G440 IRON","year":2025,"specs":["4I","5I","6I","7I","8I","9I","PW","UW","52°","56°"]},
-        {"model":"i240","year":2025,"specs":["3I","4I","5I","6I","7I","8I","9I","PW","UW"]},
-        {"model":"i230","year":2022,"specs":["3I","4I","5I","6I","7I","8I","9I","PW","UW"]},
-        {"model":"G430 IRON","year":2022,"specs":["4I","5I","6I","7I","8I","9I","PW","45.5°","50°","54°","58°"]},
-        {"model":"i59","year":2021,"specs":["3I","4I","5I","6I","7I","8I","9I","PW"]},
-        {"model":"G425 IRON","year":2020,"specs":["4I","5I","6I","7I","8I","9I","PW","UW","SW","LW"]}
+    "アイアン": {
+      "PING": [
+        {
+          "model": "G440 IRON",
+          "year": 2025,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "UW",
+            "52°",
+            "56°"
+          ]
+        },
+        {
+          "model": "i240",
+          "year": 2025,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "UW"
+          ]
+        },
+        {
+          "model": "i230",
+          "year": 2022,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "UW"
+          ]
+        },
+        {
+          "model": "G430 IRON",
+          "year": 2022,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "45.5°",
+            "50°",
+            "54°",
+            "58°"
+          ]
+        },
+        {
+          "model": "i59",
+          "year": 2021,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "G425 IRON",
+          "year": 2020,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "UW",
+            "SW",
+            "LW"
+          ]
+        }
       ],
-      "Titleist":[
-        {"model":"T100","year":2023,"specs":["3I","4I","5I","6I","7I","8I","9I","PW"]},
-        {"model":"T150","year":2023,"specs":["3I","4I","5I","6I","7I","8I","9I","PW"]},
-        {"model":"T200","year":2023,"specs":["3I","4I","5I","6I","7I","8I","9I","PW"]},
-        {"model":"T350","year":2023,"specs":["4I","5I","6I","7I","8I","9I","PW","W"]}
+      "Titleist": [
+        {
+          "model": "T100",
+          "year": 2023,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "T150",
+          "year": 2023,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "T200",
+          "year": 2023,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "T350",
+          "year": 2023,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "W"
+          ]
+        }
       ],
-      "Mizuno":[
-        {"model":"Mizuno Pro 241","year":2024,"specs":["4I","5I","6I","7I","8I","9I","PW"]},
-        {"model":"Mizuno Pro 243","year":2024,"specs":["4I","5I","6I","7I","8I","9I","PW"]},
-        {"model":"Mizuno Pro 245","year":2024,"specs":["4I","5I","6I","7I","8I","9I","PW"]},
-        {"model":"JPX 925 FORGED","year":2025,"specs":["4I","5I","6I","7I","8I","9I","PW","GW"]}
+      "Mizuno": [
+        {
+          "model": "Mizuno Pro 241",
+          "year": 2024,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "Mizuno Pro 243",
+          "year": 2024,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "Mizuno Pro 245",
+          "year": 2024,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "JPX 925 FORGED",
+          "year": 2025,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "GW"
+          ]
+        }
       ],
-      "SRIXON":[
-        {"model":"ZXi7","year":2024,"specs":["3I","4I","5I","6I","7I","8I","9I","PW"]},
-        {"model":"ZXi5","year":2024,"specs":["4I","5I","6I","7I","8I","9I","PW","AW","SW"]},
-        {"model":"ZX7 Mk II","year":2022,"specs":["3I","4I","5I","6I","7I","8I","9I","PW"]}
+      "SRIXON": [
+        {
+          "model": "ZXi7",
+          "year": 2024,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "ZXi5",
+          "year": 2024,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "ZX7 Mk II",
+          "year": 2022,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
+      ],
+      "TaylorMade": [
+        {
+          "model": "Qi MAX IRON",
+          "year": 2026,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW"
+          ]
+        },
+        {
+          "model": "P·8CB",
+          "year": 2026,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "P·7CB",
+          "year": 2026,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "P·7MB",
+          "year": 2026,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "P·790",
+          "year": 2025,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW"
+          ]
+        },
+        {
+          "model": "P·770",
+          "year": 2024,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "Qi IRON",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "STEALTH IRON",
+          "year": 2022,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        }
+      ],
+      "Callaway": [
+        {
+          "model": "X FORGED",
+          "year": 2025,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "X FORGED STAR",
+          "year": 2025,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "APEX MB",
+          "year": 2024,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "APEX PRO",
+          "year": 2024,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "APEX CB",
+          "year": 2024,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "PARADYM Ai SMOKE",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW"
+          ]
+        },
+        {
+          "model": "ROGUE ST MAX",
+          "year": 2022,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "GW",
+            "SW"
+          ]
+        }
+      ],
+      "COBRA": [
+        {
+          "model": "3DP X IRONS",
+          "year": 2026,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "3DP MB IRONS",
+          "year": 2026,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "3DP TOUR IRONS",
+          "year": 2025,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "KING TOUR",
+          "year": 2023,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "KING CB",
+          "year": 2023,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "KING MB",
+          "year": 2023,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
+      ],
+      "Bridgestone": [
+        {
+          "model": "258CBP",
+          "year": 2025,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "241CB",
+          "year": 2024,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "242CB+",
+          "year": 2024,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "221CB",
+          "year": 2022,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "222CB+",
+          "year": 2022,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
+      ],
+      "PRGR": [
+        {
+          "model": "PRGR 00 IRON",
+          "year": 2023,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "PRGR 01 IRON",
+          "year": 2023,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "PRGR 02 IRON",
+          "year": 2023,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "PRGR 03 IRON",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW"
+          ]
+        },
+        {
+          "model": "PRGR 04 IRON",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
+      ],
+      "XXIO": [
+        {
+          "model": "XXIO 14 IRON",
+          "year": 2026,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "XXIO 13 IRON",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "XXIO X IRON",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        }
+      ],
+      "YAMAHA": [
+        {
+          "model": "inpres DRIVESTAR TYPE/S",
+          "year": 2025,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW"
+          ]
+        },
+        {
+          "model": "RMX VD/M IRON",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "RMX VD/R IRON",
+          "year": 2024,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
+      ],
+      "ONOFF": [
+        {
+          "model": "ONOFF FORGED IRON KURO",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "ONOFF IRON AKA",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW"
+          ]
+        },
+        {
+          "model": "ONOFF IRON LADY",
+          "year": 2024,
+          "specs": [
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW"
+          ]
+        }
+      ],
+      "FOURTEEN": [
+        {
+          "model": "TB-5 FORGED",
+          "year": 2025,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "TB-7 FORGED",
+          "year": 2022,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "TC-7 FORGED",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
+      ],
+      "HONMA": [
+        {
+          "model": "T//WORLD TOUR V",
+          "year": 2025,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "T//WORLD TW767 Vx",
+          "year": 2024,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "BERES IRON",
+          "year": 2024,
+          "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "10I",
+            "11I",
+            "SW"
+          ]
+        }
+      ],
+      "Miura": [
+        {
+          "model": "CB-302",
+          "year": 2023,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "TC-201",
+          "year": 2020,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "MB-101",
+          "year": 2019,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        }
       ]
     },
-    "ウェッジ":{
-      "PING":[
-        {"model":"s159","year":2024,"specs":["46°","48°","50°","52°","54°","56°","58°","60°","62°"]},
-        {"model":"Glide 4.0","year":2022,"specs":["46°","50°","52°","54°","56°","58°","60°"]},
-        {"model":"Glide Forged Pro","year":2021,"specs":["50°","52°","54°","56°","58°","60°","62°"]}
+    "ウェッジ": {
+      "PING": [
+        {
+          "model": "s159",
+          "year": 2024,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°",
+            "62°"
+          ]
+        },
+        {
+          "model": "Glide 4.0",
+          "year": 2022,
+          "specs": [
+            "46°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Glide Forged Pro",
+          "year": 2021,
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°",
+            "62°"
+          ]
+        }
       ],
-      "Titleist":[
-        {"model":"Vokey SM10","year":2024,"specs":["46°","48°","50°","52°","54°","56°","58°","60°","62°"]},
-        {"model":"Vokey SM9","year":2022,"specs":["46°","48°","50°","52°","54°","56°","58°","60°","62°"]},
-        {"model":"Vokey SM8","year":2020,"specs":["46°","48°","50°","52°","54°","56°","58°","60°","62°"]}
+      "Titleist": [
+        {
+          "model": "Vokey SM10",
+          "year": 2024,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°",
+            "62°"
+          ]
+        },
+        {
+          "model": "Vokey SM9",
+          "year": 2022,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°",
+            "62°"
+          ]
+        },
+        {
+          "model": "Vokey SM8",
+          "year": 2020,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°",
+            "62°"
+          ]
+        }
       ],
-      "Callaway":[
-        {"model":"OPUS","year":2024,"specs":["48°","50°","52°","54°","56°","58°","60°"]},
-        {"model":"JAWS RAW","year":2022,"specs":["48°","50°","52°","54°","56°","58°","60°"]}
+      "Callaway": [
+        {
+          "model": "OPUS",
+          "year": 2024,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "JAWS RAW",
+          "year": 2022,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
       ],
-      "Cleveland":[
-        {"model":"RTX 6 ZIPCORE","year":2023,"specs":["46°","48°","50°","52°","54°","56°","58°","60°"]},
-        {"model":"RTX ZIPCORE","year":2020,"specs":["46°","48°","50°","52°","54°","56°","58°","60°"]}
+      "Cleveland": [
+        {
+          "model": "RTX 6 ZIPCORE",
+          "year": 2023,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RTX ZIPCORE",
+          "year": 2020,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "TaylorMade": [
+        {
+          "model": "MG5",
+          "year": 2026,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Hi-Toe 5",
+          "year": 2026,
+          "specs": [
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "MG4",
+          "year": 2023,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Hi-Toe 3",
+          "year": 2022,
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "Mizuno": [
+        {
+          "model": "Mizuno Pro T-3",
+          "year": 2025,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Mizuno Pro T-1",
+          "year": 2025,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "T24",
+          "year": 2023,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "Bridgestone": [
+        {
+          "model": "BITING SPIN",
+          "year": 2024,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "BRM2",
+          "year": 2022,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "PRGR": [
+        {
+          "model": "PRGR 0 TOUR WEDGE",
+          "year": 2025,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°"
+          ]
+        },
+        {
+          "model": "PRGR 0 WEDGE",
+          "year": 2024,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°"
+          ]
+        },
+        {
+          "model": "R45 WEDGE",
+          "year": 2023,
+          "specs": [
+            "45°"
+          ]
+        },
+        {
+          "model": "R55 WEDGE",
+          "year": 2023,
+          "specs": [
+            "55°"
+          ]
+        }
+      ],
+      "FOURTEEN": [
+        {
+          "model": "FRZ WEDGE",
+          "year": 2024,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "DJ-6",
+          "year": 2023,
+          "specs": [
+            "44°",
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RM-α",
+          "year": 2022,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "COBRA": [
+        {
+          "model": "KING WEDGE",
+          "year": 2025,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "SNAKEBITE",
+          "year": 2023,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "YAMAHA": [
+        {
+          "model": "RMX VD WEDGE",
+          "year": 2024,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°"
+          ]
+        },
+        {
+          "model": "inpres DRIVESTAR WEDGE",
+          "year": 2025,
+          "specs": [
+            "AW",
+            "SW"
+          ]
+        }
+      ],
+      "ONOFF": [
+        {
+          "model": "ONOFF FORGED WEDGE",
+          "year": 2024,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°"
+          ]
+        },
+        {
+          "model": "ONOFF WEDGE FROG'S RUNNING",
+          "year": 2023,
+          "specs": [
+            "51°",
+            "58°",
+            "64°"
+          ]
+        }
+      ],
+      "HONMA": [
+        {
+          "model": "T//WORLD W5",
+          "year": 2024,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "T//WORLD W4",
+          "year": 2022,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "Miura": [
+        {
+          "model": "Tour Wedge High Bounce",
+          "year": 2023,
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Tour Wedge Low Bounce",
+          "year": 2023,
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
       ]
     },
-    "パター":{
-      "PING":[
-        {"model":"PLD MILLED ANSER","year":2024,"specs":["33inch","34inch","35inch"]},
-        {"model":"PLD MILLED ANSER 2","year":2024,"specs":["33inch","34inch","35inch"]},
-        {"model":"PLD MILLED DS72","year":2024,"specs":["33inch","34inch","35inch"]},
-        {"model":"PING 2024 ANSER D","year":2024,"specs":["33inch","34inch","35inch"]}
+    "パター": {
+      "PING": [
+        {
+          "model": "PLD MILLED ANSER",
+          "year": 2024,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        },
+        {
+          "model": "PLD MILLED ANSER 2",
+          "year": 2024,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        },
+        {
+          "model": "PLD MILLED DS72",
+          "year": 2024,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        },
+        {
+          "model": "PING 2024 ANSER D",
+          "year": 2024,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        }
       ],
-      "Titleist/Scotty Cameron":[
-        {"model":"SUPER SELECT NEWPORT 2","year":2023,"specs":["33inch","34inch","35inch"]},
-        {"model":"SUPER SELECT SQUAREBACK 2","year":2023,"specs":["33inch","34inch","35inch"]},
-        {"model":"PHANTOM 5","year":2024,"specs":["33inch","34inch","35inch"]},
-        {"model":"PHANTOM 7","year":2024,"specs":["33inch","34inch","35inch"]}
+      "Titleist/Scotty Cameron": [
+        {
+          "model": "SUPER SELECT NEWPORT 2",
+          "year": 2023,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        },
+        {
+          "model": "SUPER SELECT SQUAREBACK 2",
+          "year": 2023,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        },
+        {
+          "model": "PHANTOM 5",
+          "year": 2024,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        },
+        {
+          "model": "PHANTOM 7",
+          "year": 2024,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        }
       ],
-      "Odyssey":[
-        {"model":"Ai-ONE #1","year":2024,"specs":["33inch","34inch","35inch"]},
-        {"model":"Ai-ONE #7","year":2024,"specs":["33inch","34inch","35inch"]},
-        {"model":"Ai-ONE MILLED SEVEN T DB","year":2024,"specs":["33inch","34inch","35inch"]}
+      "Odyssey": [
+        {
+          "model": "Ai-ONE #1",
+          "year": 2024,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        },
+        {
+          "model": "Ai-ONE #7",
+          "year": 2024,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        },
+        {
+          "model": "Ai-ONE MILLED SEVEN T DB",
+          "year": 2024,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        }
       ],
-      "TaylorMade":[
-        {"model":"Spider TOUR X","year":2023,"specs":["33inch","34inch","35inch"]},
-        {"model":"Spider TOUR","year":2023,"specs":["33inch","34inch","35inch"]}
+      "TaylorMade": [
+        {
+          "model": "Spider TOUR X",
+          "year": 2023,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        },
+        {
+          "model": "Spider TOUR",
+          "year": 2023,
+          "specs": [
+            "33inch",
+            "34inch",
+            "35inch"
+          ]
+        }
       ]
     }
   }
