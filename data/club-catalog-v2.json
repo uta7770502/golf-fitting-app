@@ -1,5 +1,5 @@
 {
-  "version": "2.4",
+  "version": "2.5",
   "purpose": "Multi-category club catalog for linked manufacturer/year/model/spec selectors",
   "notes": "Expanded beta catalog with boutique/JDM component brands across fairway, utility, iron and wedge. Official-source verified where possible; unspecified lofts are not inferred.",
   "categories": {
@@ -1185,6 +1185,15 @@
             "番手/ロフト要確認"
           ]
         }
+      ],
+      "RAZZLE DAZZLE": [
+        {
+          "model": "B3 UT",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
       ]
     },
     "アイアン": {
@@ -2361,6 +2370,70 @@
             "番手要確認"
           ]
         }
+      ],
+      "RAZZLE DAZZLE": [
+        {
+          "model": "CSI-BB FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "CSI-CB FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "CSI-CC FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "CSI-B FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "CSI-S FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "CSI-C FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "CSI-M FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "CSI-Z3 FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        }
       ]
     },
     "ウェッジ": {
@@ -3016,6 +3089,84 @@
         {
           "model": "IRIDESCENCE FORGED WEDGE",
           "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "RAZZLE DAZZLE": [
+        {
+          "model": "CS-07W",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "CS-05W",
+          "year": "現行",
+          "specs": [
+            "45°",
+            "46°",
+            "47°",
+            "48°",
+            "49°",
+            "50°",
+            "51°",
+            "52°",
+            "53°",
+            "54°",
+            "55°",
+            "56°",
+            "57°",
+            "58°",
+            "59°",
+            "60°",
+            "61°",
+            "62°"
+          ]
+        },
+        {
+          "model": "CS-05W.v",
+          "year": "現行",
+          "specs": [
+            "45°",
+            "46°",
+            "47°",
+            "48°",
+            "49°",
+            "50°",
+            "51°",
+            "52°",
+            "53°",
+            "54°",
+            "55°",
+            "56°",
+            "57°",
+            "58°",
+            "59°",
+            "60°",
+            "61°",
+            "62°"
+          ]
+        },
+        {
+          "model": "CS-03W WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "CS-315W WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "CS-01W",
+          "year": "歴代",
           "specs": [
             "ロフト要確認"
           ]
