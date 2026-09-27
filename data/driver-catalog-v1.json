@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "purpose": "Historical driver master for linked manufacturer/model/year/loft selectors",
   "notes": "Expanded with boutique/JDM component-head makers. Rare-brand entries are added from official manufacturer product pages where available; unknown years are left as current/legacy rather than inferred.",
   "manufacturers": {
@@ -1925,6 +1925,190 @@
       {
         "model": "JB301Dr Nouvelle Vague",
         "year": "歴代",
+        "lofts": [
+          "ロフト要確認"
+        ]
+      }
+    ],
+    "FREIHEIT / THE-G": [
+      {
+        "model": "THE-G THE-DRIVER",
+        "year": "現行",
+        "lofts": [
+          "10°"
+        ]
+      },
+      {
+        "model": "THE-G 415Ti",
+        "year": "現行",
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "GXD 6215 DRIVER",
+        "year": "現行",
+        "lofts": [
+          "15°"
+        ]
+      },
+      {
+        "model": "GXD EX460 DRIVER",
+        "year": "現行",
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "GXD EX460 High-CT",
+        "year": "現行・高反発",
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "GXD 6014 DRIVER",
+        "year": "歴代",
+        "lofts": [
+          "ロフト要確認"
+        ]
+      }
+    ],
+    "JUSTICK / PROCEED": [
+      {
+        "model": "PROCEED DOUBLE-R 460 MAX-D",
+        "year": 2025,
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "DOUBLE-R 450 MAX",
+        "year": 2023,
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "PROCEED DOUBLE-R 450 DEEP",
+        "year": 2022,
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "PROCEED DOUBLE-R IV Revive",
+        "year": 2022,
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "PROCEED DOUBLE-R 460",
+        "year": 2021,
+        "lofts": [
+          "ロフト要確認"
+        ]
+      }
+    ],
+    "DOCUS": [
+      {
+        "model": "REVOLUTION2",
+        "year": "現行",
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "RELOADED+ NEO Driver",
+        "year": "現行",
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "RELOADED INFINITY∞ 3D Driver",
+        "year": "現行",
+        "lofts": [
+          "ロフト要確認"
+        ]
+      },
+      {
+        "model": "RELOADED 701 Limited DR",
+        "year": "現行",
+        "lofts": [
+          "ロフト要確認"
+        ]
+      }
+    ],
+    "KAMUI WORKS JAPAN": [
+      {
+        "model": "REX&REGINA AT DRIVER",
+        "year": "現行",
+        "lofts": [
+          "10.5°"
+        ]
+      },
+      {
+        "model": "REX&REGINA SL DRIVER",
+        "year": "現行",
+        "lofts": [
+          "10.5°",
+          "12°"
+        ]
+      }
+    ],
+    "WAOWW": [
+      {
+        "model": "BANG DRIVER",
+        "year": "2026 在庫販売",
+        "lofts": [
+          "10°",
+          "11°"
+        ]
+      },
+      {
+        "model": "BANG LIMITED BLUE DRIVER",
+        "year": "2026 在庫販売",
+        "lofts": [
+          "10°",
+          "11°"
+        ]
+      },
+      {
+        "model": "MONSTER DRIVER",
+        "year": "2026 在庫販売",
+        "lofts": [
+          "8°"
+        ]
+      },
+      {
+        "model": "RV-555 TypeS DRIVER",
+        "year": "歴代/在庫",
+        "lofts": [
+          "9°",
+          "10°",
+          "11°",
+          "12°",
+          "13°"
+        ]
+      },
+      {
+        "model": "RV-555 DRIVER",
+        "year": "歴代/在庫",
+        "lofts": [
+          "9°",
+          "10°",
+          "11°",
+          "12°",
+          "13°"
+        ]
+      }
+    ],
+    "WORKS GOLF": [
+      {
+        "model": "FLYING WORKS CP10 DRIVER",
+        "year": "現行",
         "lofts": [
           "ロフト要確認"
         ]
