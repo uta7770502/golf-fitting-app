@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "manufacturers": {
     "L.A.B. Golf": [
       {
@@ -657,6 +657,311 @@
           "33inch",
           "34inch",
           "35inch"
+        ]
+      }
+    ],
+    "PING": [
+      {
+        "model": "PLD MILLED ANSER",
+        "year": 2024,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED ANSER 2",
+        "year": 2024,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED DS72",
+        "year": 2024,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "PLD MILLED PRIME TYNE 4",
+        "year": 2024,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "SIGMA 2 ANSER",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "VAULT 2.0 ANSER",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "KUSHIN 4",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Scotty Cameron": [
+      {
+        "model": "Super Select Newport",
+        "year": 2023,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Super Select Newport 2",
+        "year": 2023,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Special Select Newport 2",
+        "year": 2020,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Phantom X 5",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Phantom X 7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Studio Select Newport 2",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "Odyssey": [
+      {
+        "model": "Ai-ONE #1",
+        "year": 2024,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Ai-ONE #7",
+        "year": 2024,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TRI-HOT 5K TWO",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE HOT OG #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "O-WORKS #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "VERSA #7",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "WHITE ICE #1",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      }
+    ],
+    "TaylorMade": [
+      {
+        "model": "Spider TOUR X",
+        "year": 2023,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider TOUR",
+        "year": 2023,
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider GTX",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider GT",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "Spider X",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TP Soto",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
+        ]
+      },
+      {
+        "model": "TP Juno",
+        "year": "歴代",
+        "specs": [
+          "32inch",
+          "33inch",
+          "34inch",
+          "35inch",
+          "36inch"
         ]
       }
     ]
