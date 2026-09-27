@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "manufacturers": {
     "L.A.B. Golf": [
       {
@@ -646,6 +646,17 @@
           "34inch",
           "35inch",
           "36inch"
+        ]
+      }
+    ],
+    "RAZZLE DAZZLE": [
+      {
+        "model": "CSP",
+        "year": "現行",
+        "specs": [
+          "33inch",
+          "34inch",
+          "35inch"
         ]
       }
     ]
