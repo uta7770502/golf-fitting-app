@@ -1,7 +1,7 @@
 {
-  "version": "2.5",
+  "version": "2.6",
   "purpose": "Multi-category club catalog for linked manufacturer/year/model/spec selectors",
-  "notes": "Expanded beta catalog with boutique/JDM component brands across fairway, utility, iron and wedge. Official-source verified where possible; unspecified lofts are not inferred.",
+  "notes": "Expanded current + historical catalog. TaylorMade iron history now includes P-Series predecessors and legacy Tour Preferred/R/Burner/RocketBladez families.",
   "categories": {
     "フェアウェイウッド": {
       "PING": [
@@ -1552,6 +1552,310 @@
           "model": "STEALTH IRON",
           "year": 2022,
           "specs": [
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "P760",
+          "year": 2018,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "P750 TOUR PROTO",
+          "year": 2017,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "P730",
+          "year": 2017,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "P770 (2017)",
+          "year": 2017,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "P790 (2017)",
+          "year": 2017,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "P790 (2019)",
+          "year": 2019,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW"
+          ]
+        },
+        {
+          "model": "P770 (2020)",
+          "year": 2020,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "P790 (2021)",
+          "year": 2021,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW"
+          ]
+        },
+        {
+          "model": "Tour Preferred MC",
+          "year": 2014,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "Tour Preferred CB",
+          "year": 2011,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "Tour Preferred MC (2011)",
+          "year": 2011,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "Tour Preferred MB",
+          "year": 2011,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "RocketBladez",
+          "year": 2012,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "RocketBladez Tour",
+          "year": 2012,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "RocketBladez Max",
+          "year": 2012,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "R11",
+          "year": 2011,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "R9",
+          "year": 2009,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "R9 TP",
+          "year": 2009,
+          "specs": [
+            "3I",
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW"
+          ]
+        },
+        {
+          "model": "Burner 2.0",
+          "year": 2010,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "Burner SuperLaunch",
+          "year": 2010,
+          "specs": [
+            "4I",
+            "5I",
+            "6I",
+            "7I",
+            "8I",
+            "9I",
+            "PW",
+            "AW",
+            "SW"
+          ]
+        },
+        {
+          "model": "Tour Burner",
+          "year": 2008,
+          "specs": [
+            "3I",
+            "4I",
             "5I",
             "6I",
             "7I",
