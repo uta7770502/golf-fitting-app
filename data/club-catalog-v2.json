@@ -1,5 +1,5 @@
 {
-  "version": "2.3",
+  "version": "2.4",
   "purpose": "Multi-category club catalog for linked manufacturer/year/model/spec selectors",
   "notes": "Expanded beta catalog with boutique/JDM component brands across fairway, utility, iron and wedge. Official-source verified where possible; unspecified lofts are not inferred.",
   "categories": {
@@ -519,6 +519,84 @@
             "5W"
           ]
         }
+      ],
+      "FREIHEIT / THE-G": [
+        {
+          "model": "THE-G Ti FAIRWAY WOOD TRIANGLE",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "THE-G Ti FW TYPE-S",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "THE-G Ti FAIRWAY WOOD MID SIZE",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        }
+      ],
+      "JUSTICK / PROCEED": [
+        {
+          "model": "PROCEED DOUBLE-R SF FW",
+          "year": 2025,
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "PROCEED DOUBLE-R FW",
+          "year": 2021,
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        }
+      ],
+      "WAOWW": [
+        {
+          "model": "BANG FAIRWAY",
+          "year": "2026 在庫販売",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "RV-555 TypeS FAIRWAY WOOD",
+          "year": "歴代/在庫",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "RV-555 FAIRWAY WOOD",
+          "year": "歴代/在庫",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        }
+      ],
+      "KAMUI WORKS JAPAN": [
+        {
+          "model": "REX&REGINA FAIRWAY WOOD",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "IRIDESCENCE FAIRWAY WOOD",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        }
       ]
     },
     "ユーティリティ/HY": {
@@ -1026,6 +1104,85 @@
             "U3",
             "U4",
             "U5"
+          ]
+        }
+      ],
+      "FREIHEIT / THE-G": [
+        {
+          "model": "THE-G Ti HYBRID TRIANGLE",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "THE-G HYBRID BLACKS",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "GXD HYBRID-i",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        }
+      ],
+      "JUSTICK / PROCEED": [
+        {
+          "model": "DOUBLE-R SB-UT",
+          "year": 2025,
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "DOUBLE-R HYBRID UT",
+          "year": 2025,
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        }
+      ],
+      "WAOWW": [
+        {
+          "model": "BANG UTILITY",
+          "year": "2026 在庫販売",
+          "specs": [
+            "21°",
+            "24°"
+          ]
+        },
+        {
+          "model": "RV-555 TypeS UTILITY",
+          "year": "歴代/在庫",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "RV-555 UTILITY",
+          "year": "歴代/在庫",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        }
+      ],
+      "KAMUI WORKS JAPAN": [
+        {
+          "model": "REX&REGINA UTILITY",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
+          ]
+        },
+        {
+          "model": "IRIDESCENCE UTILITY",
+          "year": "現行",
+          "specs": [
+            "番手/ロフト要確認"
           ]
         }
       ]
@@ -2103,6 +2260,107 @@
             "PW"
           ]
         }
+      ],
+      "FREIHEIT / THE-G": [
+        {
+          "model": "THE-G FORGED IRON MIDSIZE",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "THE-G FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "GXD MF-2 IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "GXD 105P FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        }
+      ],
+      "JUSTICK / PROCEED": [
+        {
+          "model": "JP-54 改 IRON",
+          "year": 2025,
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "JP-54 IRON NEW BLACK EDITION",
+          "year": 2023,
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "JP-73 IRON",
+          "year": 2021,
+          "specs": [
+            "番手要確認"
+          ]
+        }
+      ],
+      "WAOWW": [
+        {
+          "model": "BANG IRON",
+          "year": "2026 在庫販売",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "RV-555 IRON",
+          "year": "歴代/在庫",
+          "specs": [
+            "番手要確認"
+          ]
+        }
+      ],
+      "KAMUI WORKS JAPAN": [
+        {
+          "model": "REX&REGINA IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "REX&REGINA POCKET CAVITY",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        },
+        {
+          "model": "IRIDESCENCE FORGED IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        }
+      ],
+      "WORKS GOLF": [
+        {
+          "model": "MACH IRON",
+          "year": "現行",
+          "specs": [
+            "番手要確認"
+          ]
+        }
       ]
     },
     "ウェッジ": {
@@ -2696,6 +2954,70 @@
             "54°",
             "56°",
             "58°"
+          ]
+        }
+      ],
+      "FREIHEIT / THE-G": [
+        {
+          "model": "THE-G FORGED WEDGE RAW FACE FINISH",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "THE-G 304FORGED WEDGE",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "JUSTICK / PROCEED": [
+        {
+          "model": "JP-FORGED R-II",
+          "year": 2023,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "JP-FORGED R-III",
+          "year": 2023,
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "WAOWW": [
+        {
+          "model": "BANG WEDGE",
+          "year": "2026 在庫販売",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "RV-555 WEDGE",
+          "year": "歴代/在庫",
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "KAMUI WORKS JAPAN": [
+        {
+          "model": "REX&REGINA WEDGE",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "IRIDESCENCE FORGED WEDGE",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
           ]
         }
       ]
