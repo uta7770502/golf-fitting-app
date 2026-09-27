@@ -3,7 +3,7 @@
 更新: 2026-09-27
 
 ## β版ステータス
-**β版完成・機能凍結（Beta 1.2）**
+**β版完成・機能凍結（Beta 1.3）**
 
 実機での細かな操作感・文言・写真差し替えは、ここから「βフィードバック」として扱う。
 
@@ -115,3 +115,19 @@
 - index.html / my-bag.html JavaScript構文 OK
 - 主要JSONパース OK
 - Beta 1.2では新機能追加を停止し、DB網羅と既存機能安定化を優先
+
+
+## Beta 1.3 最終状態
+- パター: 40メーカー / 292モデル
+- ウェッジ: 31メーカー / 202モデル
+- PING / Scotty Cameron / Odyssey / TaylorMade のパター歴代モデルを大幅拡張
+- Bettinardi / EVNROLL / L.A.B. Golf / TOULON / Cleveland / PRGR / Mizuno / COBRA / Rife / Never Compromise / Nike 等を追加
+- パターメーカーの重複・分裂表記を整理
+- スマホでヘッド写真 / シャフト写真を撮影・選択して保存可能
+- 写真は端末側で縮小保存
+- マイバッグ画像の優先順位: 本人撮影 → 許諾/API画像 → プレースホルダー
+- ハードコードした無断外部画像URLを撤去
+- マイバッグを真俯瞰バッグ風UI＋最大14枚の正方形クラブタイルへ変更
+- タイルタップで詳細スペック表示
+- 未登録枠は＋表示
+- index.html / my-bag.html JavaScript構文再監査 OK
