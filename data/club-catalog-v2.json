@@ -1,7 +1,7 @@
 {
-  "version": "2.7",
+  "version": "2.8",
   "purpose": "Multi-category club catalog for linked manufacturer/year/model/spec selectors",
-  "notes": "Expanded current + historical catalog. TaylorMade iron history now includes P-Series predecessors and legacy Tour Preferred/R/Burner/RocketBladez families.",
+  "notes": "Expanded wedge coverage substantially, including Cleveland legacy families and boutique/JDM wedge makers. Unverified lofts remain explicitly marked for later spec completion.",
   "categories": {
     "フェアウェイウッド": {
       "PING": [
@@ -3826,6 +3826,215 @@
             "58°",
             "60°"
           ]
+        },
+        {
+          "model": "RTX 4",
+          "year": 2018,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RTX-3",
+          "year": 2016,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "RTX-3 CB",
+          "year": 2016,
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "588 RTX 2.0",
+          "year": 2014,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "588 RTX",
+          "year": 2012,
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "588 FORGED",
+          "year": "歴代",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CG15",
+          "year": "歴代",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CG14",
+          "year": "歴代",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CG12",
+          "year": "歴代",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CBX 4 ZIPCORE",
+          "year": "現行",
+          "specs": [
+            "44°",
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CBX ZIPCORE",
+          "year": "現行",
+          "specs": [
+            "44°",
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CBX 2",
+          "year": "歴代",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "CBX",
+          "year": "歴代",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Smart Sole Full-Face",
+          "year": "現行",
+          "specs": [
+            "C",
+            "G",
+            "S",
+            "L"
+          ]
+        },
+        {
+          "model": "Smart Sole 4",
+          "year": "歴代",
+          "specs": [
+            "C",
+            "G",
+            "S"
+          ]
+        },
+        {
+          "model": "Smart Sole 3",
+          "year": "歴代",
+          "specs": [
+            "C",
+            "S"
+          ]
         }
       ],
       "TaylorMade": [
@@ -4161,6 +4370,45 @@
             "58°",
             "60°"
           ]
+        },
+        {
+          "model": "Forged Wedge Series - Y Grind",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "Forged Wedge Series - C Grind",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "K-Grind 2.0",
+          "year": "現行",
+          "specs": [
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Milled Tour Wedge",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "LH Wedge Series",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
         }
       ],
       "BALDO": [
@@ -4412,6 +4660,456 @@
           "year": "歴代",
           "specs": [
             "ロフト要確認"
+          ]
+        }
+      ],
+      "PXG": [
+        {
+          "model": "0311 Sugar Daddy III",
+          "year": "現行",
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "0311 Sugar Daddy II",
+          "year": "歴代",
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "0311 3X FORGED",
+          "year": "現行",
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "0311 FORGED",
+          "year": "歴代",
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Sugar Daddy",
+          "year": "歴代",
+          "specs": [
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Zulu / Romeo",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "Forged Wedge",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "EPON": [
+        {
+          "model": "Tour Wedge type M",
+          "year": 2016,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "Tour Wedge type S",
+          "year": 2018,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "Tour Wedge type L",
+          "year": 2020,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "Tour Wedge MUKU",
+          "year": 2021,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "Tour Wedge KURO",
+          "year": 2021,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "Tour Wedge Limited Edition",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "Personal WEDGE LIMITED EDITION",
+          "year": 2015,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "213STX",
+          "year": 2013,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "210KGX",
+          "year": 2010,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "208KGX",
+          "year": 2008,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "207KGX",
+          "year": 2007,
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "TECHNITY Wedge",
+          "year": 2007,
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "RomaRo": [
+        {
+          "model": "Ray SX-S WEDGE",
+          "year": "現行",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Ray SX-R WEDGE",
+          "year": "現行",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Ray SX-PRO WEDGE",
+          "year": "現行",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Ray SX-R LIGHT WEDGE",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°"
+          ]
+        },
+        {
+          "model": "Ray SX-ZERO WEDGE",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Ray SX-ZERO LEFT WEDGE",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "56°",
+            "58°"
+          ]
+        },
+        {
+          "model": "Alcobaça Stream WEDGE",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "Alcobaça asa WEDGE",
+          "year": "現行",
+          "specs": [
+            "46°",
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        }
+      ],
+      "Edel": [
+        {
+          "model": "SMS Pro Wedge",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "50°",
+            "52°",
+            "54°",
+            "56°",
+            "58°",
+            "60°"
+          ]
+        },
+        {
+          "model": "SMS Wedge",
+          "year": "歴代/在庫",
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "ITOBORI": [
+        {
+          "model": "STRAIGHT FLUSH WEDGE V2",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "ITOBORI V4 WEDGE",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "GINREI2 WEDGE",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "WELD TRUMP WEDGE",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "WELD DRAGON",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "STRAIGHT FLUSH WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "ITOBORI WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "GINREI WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "TOUR WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "ART WELDING",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "V3 EDITION ONE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "ITOBORI WEDGE VERSION3",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "S15C ARAKENMA",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "ITOBORI NC WEDGE",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "KYOEI": [
+        {
+          "model": "KYOEI Type X Wedge",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "KYOEI Triple Weight Wedge",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "KYOEI Triple Weight Non-Conforming Wedge",
+          "year": "現行・非適合",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "KYOEI KK Wedge",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        },
+        {
+          "model": "KYOEI Tour Wedge",
+          "year": "現行",
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "grindworks": [
+        {
+          "model": "Tungsten Forged Wedge",
+          "year": "現行",
+          "specs": [
+            "50°",
+            "60°"
+          ]
+        },
+        {
+          "model": "Forged Wedge",
+          "year": "歴代",
+          "specs": [
+            "ロフト要確認"
+          ]
+        }
+      ],
+      "VEGA": [
+        {
+          "model": "VWX WEDGE",
+          "year": "現行",
+          "specs": [
+            "48°",
+            "52°",
+            "56°"
           ]
         }
       ]
