@@ -1,3 +1,5 @@
+const responseFormat={type:'json_schema',name:'club_recognition',strict:true,schema:{type:'object',additionalProperties:false,properties:{candidates:{type:'array',maxItems:3,items:{type:'object',additionalProperties:false,properties:{brand:{type:'string'},model:{type:'string'},category:{type:'string'},year:{type:'string'},spec:{type:'string'},confidence:{type:'number'},reason:{type:'string'},sourceUrl:{type:'string'}},required:['brand','model','category','year','spec','confidence','reason','sourceUrl']}}},required:['candidates']}};
+function outputText(data){if(typeof data?.output_text==='string')return data.output_text;for(const item of data?.output||[]){for(const c of item?.content||[]){if(c?.type==='output_text'&&typeof c.text==='string')return c.text}}return''}
 export default async function handler(req,res){
   if(req.method!=='POST') return res.status(405).json({error:'method_not_allowed'});
   if(!process.env.OPENAI_API_KEY) return res.status(503).json({error:'api_not_configured'});
@@ -23,12 +25,13 @@ export default async function handler(req,res){
           {type:'input_text',text:prompt},
           {type:'input_image',image_url:image}
         ]}],
+        text:{format:responseFormat},
         max_output_tokens:900
       })
     });
     const data=await r.json();
     if(!r.ok) return res.status(r.status).json({error:'openai_error',detail:data?.error?.message||'request_failed'});
-    const text=(data.output_text||data.output?.flatMap?.(x=>x.content||[]).find?.(x=>x.type==='output_text')?.text||'').trim();
+    const text=outputText(data).trim();
     let parsed;
     try{ parsed=JSON.parse(text); }
     catch(e){
@@ -61,12 +64,14 @@ export default async function handler(req,res){
             {type:'input_text',text:webPrompt},
             {type:'input_image',image_url:image}
           ]}],
+          text:{format:responseFormat},
           max_output_tokens:1200
         })
       });
       const wd=await wr.json();
+      if(!wr.ok && !candidates.length){return res.status(wr.status).json({error:'web_search_error',detail:wd?.error?.message||'web_search_failed',code:wd?.error?.code||''})}
       if(wr.ok){
-        const wt=(wd.output_text||wd.output?.flatMap?.(x=>x.content||[]).find?.(x=>x.type==='output_text')?.text||'').trim();
+        const wt=outputText(wd).trim();
         try{
           const wp=JSON.parse(wt);
           if(Array.isArray(wp.candidates)&&wp.candidates.length){
