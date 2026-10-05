@@ -142,7 +142,17 @@ const headSpecDB={
 'TaylorMade|SIM2':{verified:true,weights:[{name:'バックウェイト',standard:16,choices:[16]}]},
 'TaylorMade|SIM2 MAX':{verified:true,weights:[{name:'バックウェイト',standard:24,choices:[24]}]},
 'TaylorMade|M5':{verified:true,status:'Tトラック可動ウェイト搭載',weights:[{name:'Tトラックウェイト1',standard:10,choices:[10]},{name:'Tトラックウェイト2',standard:10,choices:[10]}]},
-'TaylorMade|M3 460':{verified:true,status:'Yトラック可動ウェイト搭載',weights:[{name:'Yトラックウェイト1',standard:11,choices:[11]},{name:'Yトラックウェイト2',standard:11,choices:[11]}]}
+'TaylorMade|M3 460':{verified:true,status:'Yトラック可動ウェイト搭載',weights:[{name:'Yトラックウェイト1',standard:11,choices:[11]},{name:'Yトラックウェイト2',standard:11,choices:[11]}]},
+'Titleist|TSR2':{verified:true,weights:[{name:'SureFitウェイト',standard:9,choices:[3,5,7,9,11,13,15]}]},
+'Titleist|TSR3':{verified:true,weights:[{name:'SureFit CGウェイト',standard:8,choices:[4,6,8,10,12,14]}]},
+'Titleist|TSR4':{verified:true,weights:[{name:'フロントSureFitウェイト',standard:11,choices:[3,5,7,9,11,13,15]},{name:'バックSureFitウェイト',standard:3,choices:[3,5,7,9,11,13,15]}]},
+'Titleist|TSi2':{verified:true,status:'SureFitウェイト調整対応'},
+'Titleist|TSi3':{verified:true,status:'SureFit CGトラック搭載'},
+'PING|G410 PLUS':{verified:true,status:'可動式タングステンウェイト搭載',weights:[{name:'バックウェイト',standard:16,choices:[10,12,14,16,18,20]}]},
+'PING|G410 LST':{verified:true,status:'可動式タングステンウェイト搭載',weights:[{name:'バックウェイト',standard:12,choices:[8,10,12,14,16]}]},
+'Callaway|MAVRIK SUB ZERO':{verified:true,status:'前後交換式ウェイト搭載',weights:[{name:'バックウェイト',standard:14,choices:[2,14]},{name:'フロントウェイト',standard:2,choices:[2,14]}]},
+'Callaway|EPIC FLASH SUB ZERO':{verified:true,status:'前後ウェイト＋ペリメーターウェイティング搭載'},
+'Callaway|GBB EPIC SUB ZERO':{verified:true,status:'前後交換式ウェイト搭載',weights:[{name:'バックウェイト',standard:12,choices:[2,12]},{name:'フロントウェイト',standard:2,choices:[2,12]}]}
 }
 function selectedHeadSpec(){let key=$('brand').value+'|'+$('model').value;return headSpecDB[key]||{verified:false,status:'公式重量データ未確認（実測値を入力可）'}}
 function renderHeadSpec(savedWeights){let s=selectedHeadSpec(),db=$('dbHeadWeight'),area=$('weightConfigArea'),fields=$('weightConfigFields');if(db){db.innerHTML='<option value="'+(s&&s.headWeight?s.headWeight:'')+'">'+(s&&s.headWeight?s.headWeight+' g':s&&s.headWeightRange?s.headWeightRange+' g（公式範囲）':s&&s.status?s.status:'公式値未公表／未登録')+'</option>'}if(!area||!fields)return;if(!s||!s.weights||!s.weights.length){area.classList.add('hidden');fields.innerHTML='';return}area.classList.remove('hidden');fields.innerHTML=s.weights.map((w,i)=>{let saved=Array.isArray(savedWeights)&&savedWeights[i]!=null?savedWeights[i]:w.standard;return '<div class="label">'+w.name+' g <span class="auto">標準 '+w.standard+'g</span></div><select class="headWeightChoice" data-standard="'+w.standard+'" data-name="'+w.name+'">'+w.choices.map(v=>'<option value="'+v+'" '+(Number(saved)===Number(v)?'selected':'')+'>'+v+' g</option>').join('')+'</select>'}).join('')}
