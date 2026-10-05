@@ -127,7 +127,11 @@ const headSpecDB={
 'TaylorMade|Qi10 LS':{verified:true,weights:[{name:'スライディングウェイト',standard:18,choices:[18]}]},
 'TaylorMade|STEALTH 2 PLUS':{verified:true,weights:[{name:'スライディングウェイト',standard:15,choices:[10,15,20]}]},
 'TaylorMade|STEALTH 2':{verified:true,weights:[{name:'リアウェイト',standard:25,choices:[25]}]},
-'Callaway|PARADYM Ai SMOKE Triple Diamond':{verified:true,weights:[{name:'バックウェイト',standard:14,choices:[2,14]},{name:'フロントウェイト',standard:2,choices:[2,14]}]}
+'Callaway|PARADYM Ai SMOKE Triple Diamond':{verified:true,weights:[{name:'バックウェイト',standard:14,choices:[2,14]},{name:'フロントウェイト',standard:2,choices:[2,14]}]},
+'PRGR|RS X':{verified:true,weights:[{name:'バックウェイト',standard:8,choices:[3,8]},{name:'ヒールウェイト',standard:3,choices:[3,8]}]},
+'PRGR|RS F':{verified:true,weights:[{name:'バックウェイト',standard:8,choices:[3,8]},{name:'ヒールウェイト',standard:3,choices:[3,8]}]},
+'YAMAHA|RMX VD/M':{verified:true,status:'公式スライドウェイト搭載（重量値は公式資料で明記なし）',weights:[]},
+'YAMAHA|RMX VD':{verified:true,status:'公式スライドウェイト搭載（重量値は公式資料で明記なし）',weights:[]}
 }
 function selectedHeadSpec(){let key=$('brand').value+'|'+$('model').value;return headSpecDB[key]||{verified:false,status:'公式重量データ未確認'}}
 function renderHeadSpec(savedWeights){let s=selectedHeadSpec(),db=$('dbHeadWeight'),area=$('weightConfigArea'),fields=$('weightConfigFields');if(db){db.innerHTML='<option value="'+(s&&s.headWeight?s.headWeight:'')+'">'+(s&&s.headWeight?s.headWeight+' g':s&&s.headWeightRange?s.headWeightRange+' g（公式範囲）':s&&s.status?s.status:'公式値未公表／未登録')+'</option>'}if(!area||!fields)return;if(!s||!s.weights||!s.weights.length){area.classList.add('hidden');fields.innerHTML='';return}area.classList.remove('hidden');fields.innerHTML=s.weights.map((w,i)=>{let saved=Array.isArray(savedWeights)&&savedWeights[i]!=null?savedWeights[i]:w.standard;return '<div class="label">'+w.name+' g <span class="auto">標準 '+w.standard+'g</span></div><select class="headWeightChoice" data-standard="'+w.standard+'" data-name="'+w.name+'">'+w.choices.map(v=>'<option value="'+v+'" '+(Number(saved)===Number(v)?'selected':'')+'>'+v+' g</option>').join('')+'</select>'}).join('')}
