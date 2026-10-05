@@ -103,11 +103,17 @@ function categoryChanged(){let cat=$('category').value,brands=Object.keys(curren
 function rows(){return currentDB()[$('brand').value]||[]}
 function brandChanged(){if($('brand').value==='その他／手動入力'){setManualRows(['Brand','Model','Year','Spec']);options('model',['その他／手動入力']);options('year',['その他／手動入力']);options('clubSpec',['その他／手動入力']);return}if($('manualBrand'))$('manualBrand').value='';setManualRows([]);options('model',[...rows().map(x=>x.model),'その他／手動入力']);modelChanged()}
 const headSpecDB={
-'PING|G440 LST':{headWeight:205,weights:[{name:'バックウェイト',standard:29,choices:[14,17,20,23,26,29,32,35,38]}]},
-'PING|G440 MAX':{weights:[{name:'バックウェイト',standard:29,choices:[14,17,20,23,26,29,32,35,38]}]},
-'Callaway|PARADYM Triple Diamond':{weights:[{name:'バックウェイト',standard:14,choices:[2,14]},{name:'フロントウェイト',standard:2,choices:[2,14]}]},
-'Callaway|PARADYM':{weights:[{name:'スライディングウェイト',standard:15,choices:[15]}]}
-};
+'PING|G440 LST':{headWeight:205,verified:true,weights:[{name:'バックウェイト',standard:29,choices:[14,17,20,23,26,29,32,35,38]}]},
+'PING|G440 MAX':{verified:true,weights:[{name:'バックウェイト',standard:29,choices:[14,17,20,23,26,29,32,35,38]}]},
+'Callaway|PARADYM Triple Diamond':{verified:true,weights:[{name:'バックウェイト',standard:14,choices:[2,14]},{name:'フロントウェイト',standard:2,choices:[2,14]}]},
+'Callaway|PARADYM':{verified:true,weights:[{name:'スライディングウェイト',standard:15,choices:[15]}]},
+'JBEAM|ZY-SPEED':{headWeight:195,verified:true},
+'BALDO|TT DRIVER GT3 SHALLOW FACE MODEL':{headWeight:198,verified:true,weights:[{name:'ウェイトスクリュー',standard:8,choices:[2,4,6,8,10,12,14]}]},
+'BALDO|TT DRIVER GT5 DEEP PROTO':{headWeight:198,verified:true,weights:[{name:'ペンタゴンパワープレート',standard:5,choices:[2,3,4,5,6,7,8]}]},
+'BALDO|SKY DRIVE VER.3':{headWeight:194,verified:true,weights:[{name:'ウェイトスクリュー',standard:5.7,choices:[3.7,5.7,7.7,9.7]}]},
+'BALDO|TT DRIVER GT PROTO 420 SHALLOW':{headWeight:200,verified:true,weights:[{name:'ウェイトスクリュー',standard:8,choices:[2,4,6,8,10,12,14]}]},
+'BALDO|COMPETIZIONE 568 DRIVER':{headWeight:198,verified:true,weights:[{name:'ウェイトスクリュー',standard:6,choices:[2,4,6,8,10,12,14]}]}
+}
 function selectedHeadSpec(){return headSpecDB[$('brand').value+'|'+$('model').value]||null}
 function renderHeadSpec(savedWeights){let s=selectedHeadSpec(),db=$('dbHeadWeight'),area=$('weightConfigArea'),fields=$('weightConfigFields');if(db){db.innerHTML='<option value="'+(s&&s.headWeight?s.headWeight:'')+'">'+(s&&s.headWeight?s.headWeight+' g':'公式値未登録')+'</option>'}if(!area||!fields)return;if(!s||!s.weights||!s.weights.length){area.classList.add('hidden');fields.innerHTML='';return}area.classList.remove('hidden');fields.innerHTML=s.weights.map((w,i)=>{let saved=Array.isArray(savedWeights)&&savedWeights[i]!=null?savedWeights[i]:w.standard;return '<div class="label">'+w.name+' g <span class="auto">標準 '+w.standard+'g</span></div><select class="headWeightChoice" data-standard="'+w.standard+'" data-name="'+w.name+'">'+w.choices.map(v=>'<option value="'+v+'" '+(Number(saved)===Number(v)?'selected':'')+'>'+v+' g</option>').join('')+'</select>'}).join('')}
 function modelChanged(){if($('model').value==='その他／手動入力'){if($('manualModel'))$('manualModel').value='';setManualRows(['Model']);let years=[...new Set(rows().map(x=>x.year||'不明'))];let specs=[...new Set(rows().flatMap(x=>x.lofts||x.specs||[]))];options('year',[...years,'その他／手動入力']);options('clubSpec',[...specs,'その他／手動入力']);$('year').onchange=manualSubfieldChanged;$('clubSpec').onchange=manualSubfieldChanged;manualSubfieldChanged();return}let x=rows().find(v=>v.model===$('model').value);if(!x)return;['manualModel','manualYear','manualSpec'].forEach(id=>{if($(id))$(id).value=''});options('year',[x.year||'不明','その他／手動入力']);options('clubSpec',[...(x.lofts||x.specs||['不明']),'その他／手動入力']);$('year').onchange=manualSubfieldChanged;$('clubSpec').onchange=manualSubfieldChanged;manualSubfieldChanged()};renderHeadSpec()
