@@ -115,7 +115,13 @@ const headSpecDB={
 'BALDO|COMPETIZIONE 568 DRIVER':{headWeight:198,verified:true,weights:[{name:'ウェイトスクリュー',standard:6,choices:[2,4,6,8,10,12,14]}]},
 'GTD|Black Ice 460':{headWeightRange:'194–198',verified:true,weights:[{name:'ウェイト1',standard:4,choices:[2,4,6,8,10,12]},{name:'ウェイト2',standard:4,choices:[2,4,6,8,10,12]}]},
 'GTD|Black Ice The MAX':{headWeightRange:'194–198',verified:true,weights:[{name:'ウェイト1',standard:4,choices:[2,4,6,8,10,12]},{name:'ウェイト2',standard:4,choices:[2,4,6,8,10,12]}]},
-'BALDO|CORSA PERFORMANCE DRIVER':{verified:true,weights:[{name:'ウェイト1',standard:6,choices:[2,4,6,8,10,12,14]},{name:'ウェイト2',standard:6,choices:[2,4,6,8,10,12,14]}]}
+'BALDO|CORSA PERFORMANCE DRIVER':{verified:true,weights:[{name:'ウェイト1',standard:6,choices:[2,4,6,8,10,12,14]},{name:'ウェイト2',standard:6,choices:[2,4,6,8,10,12,14]}]},
+'TaylorMade|Qi35 LS':{verified:true,weights:[{name:'リアウェイト',standard:13,choices:[3,5,8,11,13,15]},{name:'トゥウェイト',standard:3,choices:[3,5,8,11,13,15]},{name:'ヒールウェイト',standard:3,choices:[3,5,8,11,13,15]}]},
+'TaylorMade|Qi35':{verified:true,weights:[{name:'リアウェイト',standard:13,choices:[3,5,8,11,13,15]},{name:'フロントウェイト',standard:3,choices:[3,5,8,11,13,15]}]},
+'Titleist|GT2':{verified:true,weights:[{name:'SureFitウェイト',standard:9,choices:[3,5,7,9,11,13,15]}]},
+'Titleist|GT3':{verified:true,weights:[{name:'SureFit CGウェイト',standard:8,choices:[4,6,8,10,12,14]}]},
+'Titleist|GT4':{verified:true,weights:[{name:'フロントSureFitウェイト',standard:11,choices:[3,5,7,9,11,13,15]},{name:'バックSureFitウェイト',standard:3,choices:[3,5,7,9,11,13,15]}]},
+'Cobra|DARKSPEED LS':{verified:true,weights:[{name:'ヒールウェイト',standard:12,choices:[3,6,9,12,15]},{name:'トゥウェイト',standard:3,choices:[3,6,9,12,15]},{name:'バックウェイト',standard:3,choices:[3,6,9,12,15]}]}
 }
 function selectedHeadSpec(){return headSpecDB[$('brand').value+'|'+$('model').value]||null}
 function renderHeadSpec(savedWeights){let s=selectedHeadSpec(),db=$('dbHeadWeight'),area=$('weightConfigArea'),fields=$('weightConfigFields');if(db){db.innerHTML='<option value="'+(s&&s.headWeight?s.headWeight:'')+'">'+(s&&s.headWeight?s.headWeight+' g':s&&s.headWeightRange?s.headWeightRange+' g（公式範囲）':'公式値未公表／未登録')+'</option>'}if(!area||!fields)return;if(!s||!s.weights||!s.weights.length){area.classList.add('hidden');fields.innerHTML='';return}area.classList.remove('hidden');fields.innerHTML=s.weights.map((w,i)=>{let saved=Array.isArray(savedWeights)&&savedWeights[i]!=null?savedWeights[i]:w.standard;return '<div class="label">'+w.name+' g <span class="auto">標準 '+w.standard+'g</span></div><select class="headWeightChoice" data-standard="'+w.standard+'" data-name="'+w.name+'">'+w.choices.map(v=>'<option value="'+v+'" '+(Number(saved)===Number(v)?'selected':'')+'>'+v+' g</option>').join('')+'</select>'}).join('')}
